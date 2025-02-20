@@ -1,0 +1,320 @@
+death-cause:
+  entity:
+    elder-guardian: <|%2$s|> mató a <|%1$s|>
+    wither-skeleton: <|%2$s|> mató a <|%1$s|>
+    stray: <|%2$s|> mató a <|%1$s|>
+    husk: <|%2$s|> mató a <|%1$s|>
+    zombie-villager: <|%2$s|> mató a <|%1$s|>
+    evoker: <|%2$s|> mató a <|%1$s|>
+    vex: <|%2$s|> mató a <|%1$s|>
+    vindicator: <|%2$s|> mató a <|%1$s|>
+    illusioner: <|%2$s|> mató a <|%1$s|>
+    creeper:
+    - un <|%2$s|> se inmoló matando a <|%1$s|>
+    - un <|%2$s|> le exploto en la cara a <|%1$s|>
+    skeleton:
+    - Un <|%2$s|> le enterro una flecha en la frente a <|%1$s|>
+    - Un <|%2$s|> mato a <|%1$s|> con su punteria
+    spider: <|%1$s|> fue comida de <|%2$s|>
+    giant: <|%2$s|> mató a <|%1$s|>
+    zombie: Un <|%2$s|> mordio hasta la muerte a <|%1$s|>
+    zombified-piglin: <|%2$s|> mató a <|%1$s|>
+    enderman: <|%1$s|> se le olvidor fuerte que es un <|%2$s|>
+    cave-spider: <|%1$s|> fue comida de <|%2$s|>
+    silverfish: Un <|%2$s|> de nada llego a matar a <|%1$s|>
+    blaze: Un <|%2$s|> dejo a cenizas a <|%1$s|>
+    wither: Un <|%2$s|> le abrio por la mitad a <|%1$s|>
+    witch: Un <|%2$s|> mató a <|%1$s|>
+    endermite: Un <|%2$s|> llego a matár a <|%1$s|>. que noob
+    guardian: Un <|%2$s|> defendio exitozamente contra <|%1$s|>
+    shulker: Un <|%2$s|> no se dejo matar por <|%1$s|>
+    snow-golem: de alguna manera un <|%2$s|> llego a matar a un <|%1$s|>
+    iron-golem: Un <|%2$s|> se revelo encontra <|%1$s|>
+    drowned: <|%1$s|> lo metieron a las profundidades del agua gracias a un <|%2$s|>
+    pillager: Un <|%2$s|> le hizo conocer su hacha a <|%1$s|>
+    ravager: <|%2$s|> mató a <|%1$s|>
+    piglin:
+    - Un <|%2$s|> mató a <|%1$s|> por no llevar oro
+    - Un <|%2$s|> mató a <|%1$s|> pot que se le olvido el oro
+    - Un <|%2$s|> se enojo con <|%1$s|> por no llevar oro y lo termino matando
+    zoglin: Un <|%2$s|> mató a <|%1$s|>
+    piglin-brute:
+    - Un <|%2$s|> le hizo conocer su hacha a <|%1$s|>
+    - Un <|%2$s|> lo partio por la mitad a <|%1$s|>
+    warden:
+    - EL <|%2$s|> destrozo a <|%1$s|> (que valiente)
+    - Un <|%2$s|> abrio por la mitad a <|%1$s|>
+    breeze: Un <|%2$s|> quemo a <|%1$s|>
+    bogged:
+    - Un <|%2$s|> le implato hongos a <|%1$s|>
+    - Un <|%2$s|> le dio un flechazo de hongos a <|%1$s|>
+  kill: <|%1$s|> se murió por que si
+  world-border: <|%1$s|> murió por el world border
+  contact: <|%1$s|> murió por estaba tocando algo que no debía
+  entity-attack: <|%2$s|> mató a <|%1$s|> con su <|%3$s|>
+  entity-sweep-attack: <|%2$s|> destrozo a <|%1$s|> con su con su %3$s
+  projectile: <|%1$s|> disparado por <|%2$s|> con su <|%3$s|>
+  suffocation: <|%1$s|> se asfixio
+  fall: <|%1$s|> se estampo contra el suelo
+  fire: <|%1$s|> se quemo
+  fire-tick: <|%1$s|> fue reducido a cenizas
+  melting: un muñeco de nieve mató a <|%1$s|>
+  lava: <|%1$s|> nado en lava
+  drowning: <|%1$s|> se ahogo
+  block-explosion: <|%1$s|> algo le exploto en la cara
+  entity-explosion: <|%1$s|> alguien le exploto en la cara
+  void: <|%1$s|> se metió en el vació
+  lightning: <|%1$s|> le cayo un rayo
+  suicide: <|%1$s|> acabo con su vida
+  starvation: <|%1$s|> se murió de hambre
+  poison: <|%1$s|> murió por una poción de veneno
+  magic: <|%1$s|> murió de una marera mágica xd
+  wither: <|%1$s|> murió por el efecto de whiter
+  falling-block: <|%1$s|> le cayo un bloque en la cabeza
+  thorns: <|%1$s|> murió por el karma
+  dragon-breath: <|%1$s|> por el dragon
+  custom: <|%1$s|> lo mato algo
+  fly-into-wall: <|%1$s|> se marco un 9/11
+  hot-floor: <|%1$s|> se quemo las patas
+  campfire: <|%1$s|> se sentó sobre una fogata
+  cramming: <|%1$s|> se en potro con otro seres
+  dryout: <|%1$s|> se ahogo en el aire
+  freeze: <|%1$s|> no soporto el team frio
+  sonic-boom: <|%1$s|> lo mato el grito del warden
+test:
+  finished: La prueba ha finalizado
+  message: Hola mundo!! esto es un <|Test|>
+login:
+  kick-generic: Error de connexion, vuele a intentarlo
+  kick-premium-validation: Se detecto una discrepancia. Reinicie su cliente
+  kick-password-error: Hubo un error al guardar tu contraseña, por favor vuelve a
+    entrar
+  kick-address-error: Hubo un error al guardar tus datos, por favor vuelve a entrar
+  kick-register-error: Hubo un problema con tu registro, vuelve a registrarte
+  kick-session-error: Hubo un problema con tu sesión, vuelve a sesión
+  kick-key-error: Hubo problema con tu llave secreta vuelve a entrar al servidor.
+    Si el problema persiste reinicie su launcher
+  kick-online-mode: El servidor entro en modo online
+  kick-unknown-state: Vuelve a entrar, Hubo un problema con tu cuenta
+  kick-entry-limbo-error: Error al entrar al modo limbo mode, Por favor vuelve a entrar
+  kick-no-register: No estas registrado, vuelve a entrar al servidor
+  limbo-initiated-by-session-chat: |-
+    Para Loguear utiliza el siguiente comando:
+     <|<click:suggest_command:/login>/login</click>|>
+  limbo-initiated-by-session-title: Utiliza Este Comando
+  limbo-initiated-by-session-subtitle: <|/login <Contraseña>|>
+  limbo-initiated-by-register-chat: |-
+    Para registrarte utiliza el siguiente comando:
+     <|<click:suggest_command:/register>/register</click>|>.
+  limbo-initiated-by-register-title: Utiliza Este Comando
+  limbo-initiated-by-register-subtitle: <|/register <Contraseña> <Contraseña>|>
+  limbo-time-out-session: Tardaste mucho en iniciar sesión
+  limbo-time-out-register: Tardaste mucho en registrarte
+  limbo-chat-write: Te tienes que loguear para escribir en el chat
+  two-factor-link-title: Tiene que ejecutar este comando para iniciar vincular su
+    cuenta
+  two-factor-link-subtitle: /link %s
+  two-factor-code-title: Aquí esta tu código de un solo uso. Este código no se tiene
+    que compartir y tiene una validez de 2 minutos
+  two-factor-code-subtitle: '%s'
+  two-factor-subject-gmail: Código de verificación en dos pasos de xB XT
+  two-factor-no-found-code: no tienes un código usa el <|/link|> para tener uno
+  two-factor-uuid-no-equal: hubo una discrepancia vuelve a enviar un nuevo código
+  two-factor-expire-code: El código ya expiro
+  two-factor-code-no-equal: El código no son iguales
+  two-factor-arrived-message-discord: Revise su discord ya tuvo que haber llegado
+    el mensaje
+  limbo-bedrock-error: Hubo un error con conexión del servidor, vuele a intentar a
+    entrar
+security:
+  kick-anti-two-player: Hay un jugador con tu nombre
+event:
+  quit: '&8[&4-&8]|!> El jugador <|%s|> se a desconecto'
+  join: '&8[&a+&8]|!> El jugador<click:suggest_command:/w %1$s> <|%1$s|> se a unido'
+  chat:
+    format: '%1$s&r » %2$s'
+    hover: |
+      Distancia recorrida: <|%sKM|>
+      Tiempo jugado: <|%sH|>
+      Nombre Real: <|%s|>
+      Idioma: <|%s|>
+ban:
+  error: Hubo un problema con las bases de datos al banear <|%s|> por <|%s|>
+  auto-ban-bot: Uso de bots (Baneo Automático)
+  auto-ban-bot-log: Purga de bots terminada
+  auto-ban-spam: Por enviar mensajes automatizado en el chat (Baneo Automático)
+  auto-ban-dupe: Uso de Dupes (Baneo Automático)
+  auto-ban-ilegal-items: Obtención de items ilegal (Baneo Automático)
+  author-auto-ban: Servidor
+inventory:
+  manipulator:
+    title: Inventario de moderación
+data:
+  mysql:
+    exception: Hubo un error al modificar los datos
+command:
+  generic-no-permission: No tienes autorización para ejecutar ese comando
+  generic-no-login: Primero inicia sessión usando <|/login|>
+  generic-no-permission-console: No tienes autorización para ejecutar comandos en
+    la consola
+  generic-run-log: <|%s|> -> %s
+  generic-exception-error: Ops!! Hubo un error al ejecutar el comando contacta con
+    el desarrollador
+  generic-args-error: 'Te falta el argumento: %s'
+  generic-format-date-error: EL formato de fecha es incorrecto
+  generic-no-player: Este comando solo lo puede ejecutar un jugador
+  generic-player-not-found: El jugador no existe o esta desconectado
+  generic-players-not-found: El jugador/es <|%s|> no esta conectado o no existe
+  add-range:
+    not-found-range: El rango no existe
+    successful: El item se le dio exitosamente
+    name: Rango %1$s por %2$s
+    missing-argument-time: Te falta especificar el tiempo de duración
+  ban:
+    missing-argument-time: Tienes que por un tiempo de baneo
+    missing-argument-reason: Tienes dar una razón de baneo
+    not-found-context: El contexto no existe
+    data-base-error: Hubo un problema con las base de datos vuelva a ejecutar el comando
+    successful: El jugador sera baneado mira los logs para confirmar
+  change-password:
+    not-equal-password: Contraseña incorrecta. Si no se acuerda de su contraseña y
+      tiene un corro o un discord vinculado puede enviar un código de verificación
+      usando <|/link <discord | gmail>|>
+    successful: La contraseña se cambio correctamente
+    error: Hubo un error al cambiar la contraseña
+    successful-log: El jugador <|%1$s|> se cambio la contraseña con su <|%2$s>
+  check-ban:
+    missing-argument-context: Falta el contexto
+    not-found-ban: No esta baneado
+    not-found-context: El contexto no existe
+    not-found-ban-in-context: El jugador no esta banedo de ningún contexto
+    not-found-but: 'El jugador esta baneado pero no del contexto seleccionado pero
+      esta baneado de:'
+    found-and-kick: El jugador <|%1$s|> fue echado del contexto <|%2$s|>
+    found: <white>-|!> Esta baneado de <|%1$s|>, expira en <|%2$s|> y la razón es
+      <|%3$s|>
+    error: Hubo un problema al encontrar la información del jugador <|%1$s|>
+  freeze:
+    missing-args-last: Tienes que poner true o false
+    already-freeze: El jugador ya fue congelado
+    already-unfreeze: El jugador ya fue descongelado
+    unfreeze-author: El jugador se descongelo
+    unfreeze-target: Te descongelaron
+    freeze-author: El jugador se congelo
+    freeze-target: Te an congelado, por favor habla con el staff
+  link:
+    send-gmail-1: Se envió un correo a %s con el código
+    send-discord-1: Se esta enviando un mensaje directo con el código
+    already-gmail: Ya tiene un correo vinculado solo usar el comando para vincular
+      un nuevo correo
+    already-discord: Ya tiene una cuenta de discord vinculado solo usar el comando
+      para vincular un nueva cuenta de discord
+    arrived-message-gmail: Revisa su bandeja de recibidos, ya tuvo que haber llegado
+    successful: Autenticación completada
+    error: Hubo un error con la autenticación, vuelve a intentar
+    missing-args-gmail: Tiene poner tu gmail o el código de validación
+    gmail-no-login: Para vincular tu gmail tiene que estar logueado
+    send-gmail-2: Se esta enviando un correo con el código
+    not-found-gmail: No tiene un Gmail vinculado
+    missing-args-discord: Tiene poner tu id del Discord o el código de validación
+    discord-no-login: Para vincular tu Discord tiene que estar logueado
+    send-discord-2: Se esta enviando un mensaje directo con el código
+    not-fount-discord: No tiene un Discord vinculado
+    missing-args: Tienes que poner discord, gmail un condigo
+  login:
+    already: Ya estas logueado
+    no-register: No estas registrado usa el <|/register|>
+    missing-args: Tienes que poner tu contraseña
+    successful-chat: Has iniciado sesión exitosamente
+    successful-title: Bienvenido de vuelta
+    successful-subtitle: <|&o%s|>
+    no-equal-password: contraseña incorrecta o código incorrecto, vuele a intentarlo.Si
+      no se acuerda de su contraseña y tiene un corro o un discord vinculado puedepuede
+      enviar un código de verificación usando <|/link <discord | gmail>|>
+    banned: Por su seguridad esta cuenta esta suspendido temporalmente por mucho intentos
+      fallidos
+  register:
+    successful-chat: La contraseña se guardo exitosamente y registraste exitosamente
+    successful-title: Bienvenido A %s
+    successful-subtitle: <|&o%s|>
+    no-equal-password: Las contraseñas no son iguales
+    missing-args-password: Tienes que escribir la contraseña de nuevo
+    password-equal-name: Tu contraseña no puede ser igual a nombre de usuario
+    password-too-short: La contraseña es muy corta tiene que ser mayor a %s letras
+    is-premium: Los premium no se registran
+    already: Ya estas registrado
+  remove-register:
+    successful: Se borro el registro al jugador <|%s|>
+    error: Hubo un error al borrar al jugador <|%s|>, vuelva a intentarlo
+  remove-session:
+    successful: Se le borro la sesión al jugador
+  see-inventory:
+    error: No puedes ver el inventarió de otro jugador que también este mirando un
+      inventarió
+    missing-args: tiene que tener el nombre del jugador
+  unban:
+    not-found-context: contexto no valido
+    successful: El jugador va ser desbaneado mira la los logs para confirmar
+  weapon:
+    missing-args-name: Falta el nombre del armamento
+    missing-args-type: El tipo de armamento no existe
+    successful: Se dio el armamento de manera exitosa
+    not-found-type: El tipo de armamento no existe
+  tpa:
+    send: Solicitud enviada a %s
+    was-disconnected: El jugador que te invito se desconecto
+    no-found: No tienes solicitudes de tpa
+    receive: 'Tienes una solicitud de %s Tpa, Click para <click:run_command:/tpa y><green>[Aceptar]</click>
+      |!>o <click:run_command:/tpa n><green><red>[Denegar]</click> '
+    self: No puedes enviar una solicitud a ti mismo
+    expire: Ya expiro el la solicitud de tpa
+  home:
+    add-successful: El home fue creado
+    remove-successful: El home fue borrado
+    not-found-remove: El home no existe
+    not-found: El home no existe puedes crear uno usando <|<click:run_command:/home
+      %1$s add>/home %1$s add</click>|>
+    contains-point: El home no puede tener puntos
+    max-home: Solo se permite máximo %s homes
+    close-spawn: Esta muy cercar de spawn te falta <|%s|> metros para hacer <|<click:run_command:/home>/home</click>|>
+  say:
+    missing-args: Te falta el mensaje y o tipo de mensaje
+  tell:
+    feedback: '&ole haz susurrado a %s -> %s'
+    format-message: '&o %s -> %s'
+    missing-target: Tienes que poner el nombre del jugador
+    missing-message: Te falta el mensaje
+  premium:
+    is-premium: Esta cuenta ya es premium
+    is-cracked: El nombre de usuario no pertenece a mojang
+    successful: Ya se hizo el cambio de tu cuenta. Ya es premium, vuelve a entrar
+    error: Hubo un error al cambiar su estado de cuenta, vuelve a intentarlo
+  confirm:
+    not-found: No tienes comandos por confirmar
+  passive:
+    restart-cancel: El reseteo fue cancelado
+    restart-init: Se inicio el reseteo pasivo usa <|<click:suggest_command:/passiverestart
+      cancel>/passiverestart cancel</click>|> para cancelar
+    restart-start: Se inicio el reinició
+  name-color:
+    not-found: Estos colores no existe
+  discord:
+    message: 'Únete a nuestra comunidad de discord: %s'
+  vote:
+    message: 'Seria un agradecimiento si votaras aquí: %s'
+  help:
+    message: Haz click <u><green><click:open_url:https://xbxt.xyz/commands>[Aquí]</click></green></u>
+      para ver lista de comandos que tiene el servidor
+  generic-not-found: El comandos no existe haz click <green><click:open_url:https://xbxt.xyz/commands>[Aquí]</click></green>
+    para ver los comandos
+misc:
+  kick-upper: |-
+    <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
+
+    &r
+  kick-lower: |2-
+
+
+    <dark_gray>< <st>                  </st> | <st>                  </st> >
+  waring-anti-dupe: ⚠ Este Item Esta protegido, si intenta dupear se BORRA TODO tu
+    inventario automáticamente ⚠
