@@ -81,6 +81,8 @@ death-cause:
   dryout: <|%1$s|> se ahogo en el aire
   freeze: <|%1$s|> no soporto el team frio
   sonic-boom: <|%1$s|> lo mato el grito del warden
+  end-crystal: <|%1$s|> fue asesinado con un <lang:entity.minecraft.end_crystal> por
+    <|%2$s|>
 test:
   finished: La prueba ha finalizado
   message: Hola mundo!! esto es un <|Test|>
@@ -91,7 +93,7 @@ login:
     entrar
   kick-address-error: Hubo un error al guardar tus datos, por favor vuelve a entrar
   kick-register-error: Hubo un problema con tu registro, vuelve a registrarte
-  kick-session-error: Hubo un problema con tu sesión, vuelve a sesión
+  kick-session-error: Hubo un problema con tu sesión, vuelve a iniciar sesión
   kick-key-error: Hubo problema con tu llave secreta vuelve a entrar al servidor.
     Si el problema persiste reinicie su launcher
   kick-online-mode: El servidor entro en modo online
@@ -141,6 +143,7 @@ event:
 ban:
   error: Hubo un problema con las bases de datos al banear <|%s|> por <|%s|>
   auto-ban-bot: Uso de bots (Baneo Automático)
+  # Este mensaje no se esta usando
   auto-ban-bot-log: Purga de bots terminada
   auto-ban-spam: Por enviar mensajes automatizado en el chat (Baneo Automático)
   auto-ban-dupe: Uso de Dupes (Baneo Automático)
@@ -238,7 +241,8 @@ command:
     successful-title: Bienvenido A %s
     successful-subtitle: <|&o%s|>
     no-equal-password: Las contraseñas no son iguales
-    missing-args-password: Tienes que escribir la contraseña de nuevo
+    missing-args-password: Tienes que escribir la contraseña dos veces asi /register
+      <contraseña> <contraseña>
     password-equal-name: Tu contraseña no puede ser igual a nombre de usuario
     password-too-short: La contraseña es muy corta tiene que ser mayor a %s letras
     is-premium: Los premium no se registran
@@ -264,8 +268,8 @@ command:
     send: Solicitud enviada a %s
     was-disconnected: El jugador que te invito se desconecto
     no-found: No tienes solicitudes de tpa
-    receive: 'Tienes una solicitud de %s Tpa, Click para <click:run_command:/tpa y><green>[Aceptar]</click>
-      |!>o <click:run_command:/tpa n><green><red>[Denegar]</click> '
+    receive: 'Tienes una solicitud de <|%s|> Tpa, Click para <click:run_command:/tpa
+      y><green>[Aceptar]</click> |!>o <click:run_command:/tpa n><green><red>[Denegar]</click> '
     self: No puedes enviar una solicitud a ti mismo
     expire: Ya expiro el la solicitud de tpa
   home:
@@ -278,7 +282,7 @@ command:
     max-home: Solo se permite máximo %s homes
     close-spawn: Esta muy cercar de spawn te falta <|%s|> metros para hacer <|<click:run_command:/home>/home</click>|>
   say:
-    missing-args: Te falta el mensaje y o tipo de mensaje
+    missing-args: Te falta el mensaje
   tell:
     feedback: '&ole haz susurrado a %s -> %s'
     format-message: '&o %s -> %s'
@@ -307,6 +311,14 @@ command:
       para ver lista de comandos que tiene el servidor
   generic-not-found: El comandos no existe haz click <green><click:open_url:https://xbxt.xyz/commands>[Aquí]</click></green>
     para ver los comandos
+  remove-password:
+    successful: Se borro la contraseña del jugador exitosamente
+    error: Hubo un error al borrar la contraseña del jugador
+    not-found: No se encontró el jugador
+  cracked:
+    error: Hubo un error al cambiar de modo cracked, vuelve a intentarlo
+    is-cracked: Ya estas en modo cracked
+    successful: Ya se hizo el cambio de tu cuenta. Ya es cracked, vuelve a entrar
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -318,3 +330,5 @@ misc:
     <dark_gray>< <st>                  </st> | <st>                  </st> >
   waring-anti-dupe: ⚠ Este Item Esta protegido, si intenta dupear se BORRA TODO tu
     inventario automáticamente ⚠
+  nether-roof: Techo del nether deshabilitado
+
