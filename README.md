@@ -178,9 +178,9 @@ event:
 Este repositorio estará todos los mensajes del servidor traducido a varios idiomas, El plugin principal
 del servidor tiene la capacidad de traducción dinámicamente según el idioma que tenga el cliente
 ### ¿Comó Puedo añadir Traducciones?
-Actualmente, solo hay 3 idiomas disponibles, pero en un futuro se va a ir añadiendo más idiomas
+No se puede. Actualmente solo hay 3 idiomas disponibles, pero en un futuro se va a ir añadiendo más idiomas
 ### ¿Tengo traducir todo?
-No hace falta traducir puedes traducir un solo mensajes o todos, no hay ni un mínimo o un máximo de mensajes
+No hace falta traducir todo puedes traducir un solo mensajes o todos, no hay ni un mínimo o un máximo de mensajes
 que hay que traducir
 ### ¿Puedo poner colores personalizados a los mensajes?
 No, por qué todos los mensajes tienes un color específico según su tipo. Solo se puede cambiar de color
