@@ -140,11 +140,10 @@ event:
       Tiempo jugado: <|%sH|>
       Nombre Real: <|%s|>
       Idioma: <|%s|>
+      Rango: <|%s|>
 ban:
   error: Hubo un problema con las bases de datos al banear <|%s|> por <|%s|>
   auto-ban-bot: Uso de bots (Baneo Automático)
-  # Este mensaje no se esta usando
-  auto-ban-bot-log: Purga de bots terminada
   auto-ban-spam: Por enviar mensajes automatizado en el chat (Baneo Automático)
   auto-ban-dupe: Uso de Dupes (Baneo Automático)
   auto-ban-ilegal-items: Obtención de items ilegal (Baneo Automático)
@@ -237,7 +236,7 @@ command:
     banned: Por su seguridad esta cuenta esta suspendido temporalmente por mucho intentos
       fallidos
   register:
-    successful-chat: La contraseña se guardo exitosamente y registraste exitosamente
+    successful-chat: Te registraste exitosamente
     successful-title: Bienvenido A %s
     successful-subtitle: <|&o%s|>
     no-equal-password: Las contraseñas no son iguales
