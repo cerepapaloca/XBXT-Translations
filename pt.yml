@@ -81,8 +81,8 @@ death-cause:
   dryout: <|%1$s|> afogou-se no ar
   freeze: <|%1$s|> não aguentou o time frio
   sonic-boom: <|%1$s|> foi morto pelo grito do warden
-  end-crystal: <|%1$s|> foi assassinado com um <lang:entity.minecraft.end_crystal> por
-    <|%2$s|>
+  end-crystal: <|%1$s|> foi assassinado com um <lang:entity.minecraft.end_crystal>
+    por <|%2$s|>
 test:
   finished: O teste terminou
   message: Olá mundo!! Isso é um <|Teste|>
@@ -114,14 +114,16 @@ login:
   limbo-chat-write: Você precisa fazer login para escrever no chat
   two-factor-link-title: Você precisa executar este comando para vincular sua conta
   two-factor-link-subtitle: /link %s
-  two-factor-code-title: Aqui está seu código de uso único. Este código não deve ser compartilhado e é válido por 2 minutos
+  two-factor-code-title: Aqui está seu código de uso único. Este código não deve ser
+    compartilhado e é válido por 2 minutos
   two-factor-code-subtitle: '%s'
   two-factor-subject-gmail: Código de verificação em duas etapas de xB XT
   two-factor-no-found-code: você não tem um código, use <|/link|> para obter um
   two-factor-uuid-no-equal: houve uma discrepância, envie um novo código
   two-factor-expire-code: O código expirou
   two-factor-code-no-equal: Os códigos não são iguais
-  two-factor-arrived-message-discord: Verifique seu Discord, a mensagem já deve ter chegado
+  two-factor-arrived-message-discord: Verifique seu Discord, a mensagem já deve ter
+    chegado
   limbo-bedrock-error: Houve um erro com a conexão do servidor, tente entrar novamente
 security:
   kick-anti-two-player: Há um jogador com seu nome
@@ -152,14 +154,16 @@ data:
 command:
   generic-no-permission: Você não tem permissão para executar este comando
   generic-no-login: Primeiro, faça login usando <|/login|>
-  generic-no-permission-console: Você não tem permissão para executar comandos no console
+  generic-no-permission-console: Você não tem permissão para executar comandos no
+    console
   generic-run-log: <|%s|> -> %s
   generic-exception-error: Ops!! Houve um erro ao executar o comando, contate o desenvolvedor
   generic-args-error: 'Falta o argumento: %s'
   generic-format-date-error: O formato da data está incorreto
   generic-no-player: Este comando só pode ser executado por um jogador
   generic-player-not-found: O jogador não existe ou está desconectado
-  generic-players-not-found: O(s) jogador(es) <|%s|> não está(ão) conectado(s) ou não existe(m)
+  generic-players-not-found: O(s) jogador(es) <|%s|> não está(ão) conectado(s) ou
+    não existe(m)
   add-range:
     not-found-range: O rank não existe
     successful: O item foi dado com sucesso
@@ -172,7 +176,9 @@ command:
     data-base-error: Houve um problema com o banco de dados, execute o comando novamente
     successful: O jogador será banido, verifique os logs para confirmar
   change-password:
-    not-equal-password: Senha incorreta. Se você não se lembra da sua senha e tem um e-mail ou Discord vinculado, pode enviar um código de verificação usando <|/link <discord | gmail>|>
+    not-equal-password: Senha incorreta. Se você não se lembra da sua senha e tem
+      um e-mail ou Discord vinculado, pode enviar um código de verificação usando
+      <|/link <discord | gmail>|>
     successful: A senha foi alterada com sucesso
     error: Houve um erro ao alterar a senha
     successful-log: O jogador <|%1$s|> alterou a senha com seu <|%2$s>
@@ -181,7 +187,8 @@ command:
     not-found-ban: Não está banido
     not-found-context: O contexto não existe
     not-found-ban-in-context: O jogador não está banido de nenhum contexto
-    not-found-but: 'O jogador está banido, mas não do contexto selecionado, mas está banido de:'
+    not-found-but: 'O jogador está banido, mas não do contexto selecionado, mas está
+      banido de:'
     found-and-kick: O jogador <|%1$s|> foi expulso do contexto <|%2$s|>
     found: <white>-|!> Está banido de <|%1$s|>, expira em <|%2$s|> e a razão é <|%3$s|>
     error: Houve um problema ao encontrar as informações do jogador <|%1$s|>
@@ -196,8 +203,10 @@ command:
   link:
     send-gmail-1: Um e-mail foi enviado para %s com o código
     send-discord-1: Uma mensagem direta está sendo enviada com o código
-    already-gmail: Já tem um e-mail vinculado, use o comando para vincular um novo e-mail
-    already-discord: Já tem uma conta do Discord vinculada, use o comando para vincular uma nova conta do Discord
+    already-gmail: Já tem um e-mail vinculado, use o comando para vincular um novo
+      e-mail
+    already-discord: Já tem uma conta do Discord vinculada, use o comando para vincular
+      uma nova conta do Discord
     arrived-message-gmail: Verifique sua caixa de entrada, o e-mail já deve ter chegado
     successful: Autenticação concluída
     error: Houve um erro com a autenticação, tente novamente
@@ -217,14 +226,18 @@ command:
     successful-chat: Você fez login com sucesso
     successful-title: Bem-vindo de volta
     successful-subtitle: <|&o%s|>
-    no-equal-password: Senha incorreta ou código incorreto, tente novamente. Se você não se lembra da sua senha e tem um e-mail ou Discord vinculado, pode enviar um código de verificação usando <|/link <discord | gmail>|>
-    banned: Por sua segurança, esta conta está suspensa temporariamente por muitas tentativas falhas register
+    no-equal-password: Senha incorreta ou código incorreto, tente novamente. Se você
+      não se lembra da sua senha e tem um e-mail ou Discord vinculado, pode enviar
+      um código de verificação usando <|/link <discord | gmail>|>
+    banned: Por sua segurança, esta conta está suspensa temporariamente por muitas
+      tentativas falhas register
   register:
     successful-chat: Você se registrou com sucesso
     successful-title: Bem-vindo a %s
     successful-subtitle: <|&o%s|>
     no-equal-password: As senhas não são iguais
-    missing-args-password: 'Você precisa escrever a senha duas vezes assim: /register <senha> <senha>'
+    missing-args-password: 'Você precisa escrever a senha duas vezes assim: /register
+      <senha> <senha>'
     password-equal-name: Sua senha não pode ser igual ao nome de usuário
     password-too-short: A senha é muito curta, precisa ter mais de %s letras
     is-premium: Os premium não se registram
@@ -235,7 +248,8 @@ command:
   remove-session:
     successful: A sessão do jogador foi removida
   see-inventory:
-    error: Você não pode ver o inventário de outro jogador que também esteja visualizando um inventário
+    error: Você não pode ver o inventário de outro jogador que também esteja visualizando
+      um inventário
     missing-args: Você precisa colocar o nome do jogador
   unban:
     not-found-context: Contexto inválido
@@ -249,14 +263,16 @@ command:
     send: Solicitação enviada para %s
     was-disconnected: O jogador que te convidou se desconectou
     no-found: Você não tem solicitações de tpa
-    receive: 'Você tem uma solicitação de <|%s|> Tpa, Clique para <click:run_command:/tpa y><green>[Aceitar]</click> |!>ou <click:run_command:/tpa n><green><red>[Recusar]</click> '
+    receive: 'Você tem uma solicitação de <|%s|> Tpa, Clique para <click:run_command:/tpa
+      y><green>[Aceitar]</click> |!>ou <click:run_command:/tpa n><green><red>[Recusar]</click> '
     self: Você não pode enviar uma solicitação para si mesmo
     expire: A solicitação de tpa expirou
   home:
     add-successful: O home foi criado
     remove-successful: O home foi removido
     not-found-remove: O home não existe
-    not-found: O home não existe, você pode criar um usando <|<click:run_command:/home %1$s add>/home %1$s add</click>|>
+    not-found: O home não existe, você pode criar um usando <|<click:run_command:/home
+      %1$s add>/home %1$s add</click>|>
     contains-point: O home não pode ter pontos
     max-home: Apenas %s homes são permitidos
     close-spawn: Está muito perto do spawn, faltam <|%s|> metros para fazer <|<click:run_command:/home>/home</click>|>
@@ -276,7 +292,8 @@ command:
     not-found: Você não tem comandos para confirmar
   passive:
     restart-cancel: O reset foi cancelado
-    restart-init: O reset passivo foi iniciado, use <|<click:suggest_command:/passiverestart cancel>/passiverestart cancel</click>|> para cancelar
+    restart-init: O reset passivo foi iniciado, use <|<click:suggest_command:/passiverestart
+      cancel>/passiverestart cancel</click>|> para cancelar
     restart-start: O reinício foi iniciado
   name-color:
     not-found: Essas cores não existem
@@ -285,8 +302,10 @@ command:
   vote:
     message: 'Seria um agradecimento se você votasse aqui: %s'
   help:
-    message: Clique <u><green><click:open_url:https://xbxt.xyz/commands>[Aqui]</click></green></u> para ver a lista de comandos do servidor
-  generic-not-found: O comando não existe, clique <green><click:open_url:https://xbxt.xyz/commands>[Aqui]</click></green> para ver os comandos
+    message: Clique <u><green><click:open_url:https://xbxt.xyz/commands>[Aqui]</click></green></u>
+      para ver a lista de comandos do servidor
+  generic-not-found: O comando não existe, clique <green><click:open_url:https://xbxt.xyz/commands>[Aqui]</click></green>
+    para ver os comandos
   remove-password:
     successful: A senha do jogador foi removida com sucesso
     error: Houve um erro ao remover a senha do jogador
@@ -295,6 +314,19 @@ command:
     error: Houve um erro ao mudar para o modo cracked, tente novamente
     is-cracked: Você já está no modo cracked
     successful: A mudança da sua conta foi feita. Agora é cracked, entre novamente
+  home-list:
+    successful: <white>%s.</white> <|%s|> localizado em <|%s|> a <|%sm|>
+    hover: <white>clique para ir para %s</white>
+  rocked:
+    title: Lançamento em...
+  block:
+    successful: Jogador(es) %s bloqueado(s) com sucesso
+    missing-arg: Você deve especificar pelo menos um jogador
+  unblock:
+    successful: Jogador %s desbloqueado com sucesso
+    missing-arg: Você deve especificar pelo menos um jogador
+    not-found: '%s não foi encontrado na sua lista de bloqueio'
+
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -304,5 +336,56 @@ misc:
 
 
     <dark_gray>< <st>                  </st> | <st>                  </st> >
-  waring-anti-dupe: ⚠ Este item está protegido, se tentar duplicar, TODO o seu inventário será apagado automaticamente ⚠
+  waring-anti-dupe: ⚠ Este item está protegido, se tentar duplicar, TODO o seu inventário
+    será apagado automaticamente ⚠
   nether-roof: Teto do Nether desabilitado
+achievement:
+  anarchy:
+    root:
+      title: Anárquico
+      description: O começo de uma aventura selvagem
+    allshulkerbox:
+      title: Variedade de sabores
+      description: Obtenha todas as shulker boxes
+    deathbywhither:
+      title: Mensagem subliminar
+      description: Morra para um wither renomeado
+    renamewither:
+      title: Controle da mídia
+      description: Renomeie um wither
+    fullshulkerbox:
+      title: Denso como chumbo
+      description: Encha uma shulker com itens idênticos
+    fullchestfullshulkerbox:
+      title: Carga XXXXXXXL
+      description: Encha um baú duplo e seu inventário com shulkers cheias de itens idênticos
+    getenderchest:
+      title: Inventário portátil
+      description: Obtenha um ender chest
+    escapesusedchorusfruit:
+      title: Para o meu próximo truque...
+      description: Use uma chorus fruit para escapar estando completamente preso
+    killplayer:
+      title: Sobrevivência do mais forte
+      description: Mate um jogador
+    getshulkerbox:
+      title: Espaço subatômico
+      description: Obtenha uma shulker
+    findhighway:
+      title: Kolymá
+      description: Chegue a uma highway
+    travelshighway4:
+      title: Um décimo do polo ao equador
+      description: Percorra 1.000.000m pela highway
+    travelshighway3:
+      title: Daqui ao espaço
+      description: Percorra 100.000m pela highway
+    getendcrystal:
+      title: Nitroglicerina
+      description: Obtenha um End Crystal
+    travelshighway2:
+      title: Periferia do spawn
+      description: Percorra 5.000m pela highway
+    travelshighway1:
+      title: Passeio agradável
+      description: Percorra 500m pela highway
