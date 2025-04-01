@@ -36,7 +36,8 @@ death-cause:
     piglin:
     - A <|%2$s|> killed <|%1$s|> for not carrying gold
     - A <|%2$s|> killed <|%1$s|> because they forgot the gold
-    - A <|%2$s|> got angry with <|%1$s|> for not carrying gold and ended up killing them
+    - A <|%2$s|> got angry with <|%1$s|> for not carrying gold and ended up killing
+      them
     zoglin: A <|%2$s|> killed <|%1$s|>
     piglin-brute:
     - A <|%2$s|> introduced <|%1$s|> to its axe
@@ -81,7 +82,8 @@ death-cause:
   dryout: <|%1$s|> drowned in the air
   freeze: <|%1$s|> couldn't handle the cold
   sonic-boom: <|%1$s|> was killed by the warden's scream
-  end-crystal: <|%1$s|> was killed by an <lang:entity.minecraft.end_crystal> placed by <|%2$s|>
+  end-crystal: <|%1$s|> was killed by an <lang:entity.minecraft.end_crystal> placed
+    by <|%2$s|>
 test:
   finished: The test has finished
   message: Hello world!! This is a <|Test|>
@@ -90,9 +92,11 @@ login:
   kick-premium-validation: A discrepancy was detected. Restart your client
   kick-password-error: There was an error saving your password, please log in again
   kick-address-error: There was an error saving your data, please log in again
-  kick-register-error: There was a problem with your registration, please register again
+  kick-register-error: There was a problem with your registration, please register
+    again
   kick-session-error: There was a problem with your session, please log in again
-  kick-key-error: There was a problem with your secret key, please rejoin the server. If the problem persists, restart your launcher
+  kick-key-error: There was a problem with your secret key, please rejoin the server.
+    If the problem persists, restart your launcher
   kick-online-mode: The server has entered online mode
   kick-unknown-state: Please rejoin, there was a problem with your account
   kick-entry-limbo-error: Error entering limbo mode, please rejoin
@@ -112,14 +116,16 @@ login:
   limbo-chat-write: You need to log in to write in the chat
   two-factor-link-title: You need to run this command to link your account
   two-factor-link-subtitle: /link %s
-  two-factor-code-title: Here is your one-time code. This code should not be shared and is valid for 2 minutes
+  two-factor-code-title: Here is your one-time code. This code should not be shared
+    and is valid for 2 minutes
   two-factor-code-subtitle: '%s'
   two-factor-subject-gmail: Two-step verification code from xB XT
   two-factor-no-found-code: You don't have a code, use <|/link|> to get one
   two-factor-uuid-no-equal: There was a discrepancy, please send a new code
   two-factor-expire-code: The code has expired
   two-factor-code-no-equal: The codes do not match
-  two-factor-arrived-message-discord: Check your Discord, the message should have arrived
+  two-factor-arrived-message-discord: Check your Discord, the message should have
+    arrived
   limbo-bedrock-error: There was an error with the server connection, please try again
 security:
   kick-anti-two-player: There's a player with your name
@@ -150,9 +156,11 @@ data:
 command:
   generic-no-permission: You are not authorized to execute this command
   generic-no-login: First, log in using <|/login|>
-  generic-no-permission-console: You are not authorized to execute commands in the console
+  generic-no-permission-console: You are not authorized to execute commands in the
+    console
   generic-run-log: <|%s|> -> %s
-  generic-exception-error: Oops!! There was an error executing the command, contact the developer
+  generic-exception-error: Oops!! There was an error executing the command, contact
+    the developer
   generic-args-error: 'Missing argument: %s'
   generic-format-date-error: The date format is incorrect
   generic-no-player: This command can only be executed by a player
@@ -167,10 +175,13 @@ command:
     missing-argument-time: You need to specify the ban duration
     missing-argument-reason: You need to provide a ban reason
     not-found-context: The context does not exist
-    data-base-error: There was a problem with the database, please execute the command again
+    data-base-error: There was a problem with the database, please execute the command
+      again
     successful: The player will be banned, check the logs to confirm
   change-password:
-    not-equal-password: Incorrect password. If you don't remember your password and have an email or Discord linked, you can send a verification code using <|/link <discord | gmail>|>
+    not-equal-password: Incorrect password. If you don't remember your password and
+      have an email or Discord linked, you can send a verification code using <|/link
+      <discord | gmail>|>
     successful: The password was changed successfully
     error: There was an error changing the password
     successful-log: The player <|%1$s|> changed their password using their <|%2$s>
@@ -179,7 +190,8 @@ command:
     not-found-ban: Not banned
     not-found-context: The context does not exist
     not-found-ban-in-context: The player is not banned from any context
-    not-found-but: 'The player is banned but not from the selected context, but is banned from:'
+    not-found-but: 'The player is banned but not from the selected context, but is
+      banned from:'
     found-and-kick: The player <|%1$s|> was kicked from the context <|%2$s|>
     found: '<white>-|!> Banned from <|%1$s|>, expires in <|%2$s|>, reason: <|%3$s|>'
     error: There was a problem finding the player's information <|%1$s|>
@@ -194,8 +206,10 @@ command:
   link:
     send-gmail-1: An email was sent to %s with the code
     send-discord-1: A direct message is being sent with the code
-    already-gmail: You already have a linked email, use the command to link a new email
-    already-discord: You already have a linked Discord account, use the command to link a new Discord account
+    already-gmail: You already have a linked email, use the command to link a new
+      email
+    already-discord: You already have a linked Discord account, use the command to
+      link a new Discord account
     arrived-message-gmail: Check your inbox, the message should have arrived
     successful: Authentication completed
     error: There was an error with the authentication, please try again
@@ -203,7 +217,8 @@ command:
     gmail-no-login: To link your Gmail, you need to be logged in
     send-gmail-2: An email is being sent with the code
     not-found-gmail: You do not have a linked Gmail
-    missing-args-discord: You need to provide your Discord ID or the verification code
+    missing-args-discord: You need to provide your Discord ID or the verification
+      code
     discord-no-login: To link your Discord, you need to be logged in
     send-discord-2: A direct message is being sent with the code
     not-fount-discord: You do not have a linked Discord
@@ -215,14 +230,18 @@ command:
     successful-chat: You have successfully logged in
     successful-title: Welcome back
     successful-subtitle: <|&o%s|>
-    no-equal-password: Incorrect password or code, please try again. If you don't remember your password and have an email or Discord linked, you can send a verification code using <|/link <discord | gmail>|>
-    banned: For your safety, this account is temporarily suspended due to too many failed attempts
+    no-equal-password: Incorrect password or code, please try again. If you don't
+      remember your password and have an email or Discord linked, you can send a verification
+      code using <|/link <discord | gmail>|>
+    banned: For your safety, this account is temporarily suspended due to too many
+      failed attempts
   register:
     successful-chat: You have successfully registered
     successful-title: Welcome to %s
     successful-subtitle: <|&o%s|>
     no-equal-password: The passwords do not match
-    missing-args-password: You need to write the password twice like this /register <password> <password>
+    missing-args-password: You need to write the password twice like this /register
+      <password> <password>
     password-equal-name: Your password cannot be the same as your username
     password-too-short: The password is too short, it must be longer than %s characters
     is-premium: Premium users do not register
@@ -233,7 +252,8 @@ command:
   remove-session:
     successful: The player's session was deleted
   see-inventory:
-    error: You cannot view the inventory of another player who is also viewing an inventory
+    error: You cannot view the inventory of another player who is also viewing an
+      inventory
     missing-args: You need to provide the player's name
   unban:
     not-found-context: Invalid context
@@ -247,14 +267,17 @@ command:
     send: Request sent to %s
     was-disconnected: The player who invited you disconnected
     no-found: You do not have any TPA requests
-    receive: 'You have a TPA request from <|%s|>, Click to <click:run_command:/tpa y><green>[Accept]</click> |!>or <click:run_command:/tpa n><green><red>[Deny]</click> '
+    receive: 'You have a request from <|%s|> Tpa, Click to <hover:show_text:Click to accept><click:run_command:/tpa y><green>[Accept]</green></click></hover> or <hover:show_text:Click to deny><click:run_command:/tpa n><green><red>[Deny]</red></click></hover>'
     self: You cannot send a request to yourself
     expire: The TPA request has expired
+    cancel-receive: Your TPA request has been canceled
+    cancel-self: You have canceled the TPA request
   home:
     add-successful: The Home was created successfully
     remove-successful: The home was deleted
     not-found-remove: The home does not exist
-    not-found: The home does not exist, you can create one using <|<click:run_command:/home %1$s add>/home %1$s add</click>|>
+    not-found: The home does not exist, you can create one using <|<click:run_command:/home
+      %1$s add>/home %1$s add</click>|>
     contains-point: The home cannot have points
     max-home: Only a maximum of %s homes are allowed
     close-spawn: You are too close to spawn, you need <|%s|> more meters to use <|<click:run_command:/home>/home</click>|>
@@ -274,7 +297,8 @@ command:
     not-found: You have no commands to confirm
   passive:
     restart-cancel: The reset was canceled
-    restart-init: The passive reset has started, use <|<click:suggest_command:/passiverestart cancel>/passiverestart cancel</click>|> to cancel
+    restart-init: The passive reset has started, use <|<click:suggest_command:/passiverestart
+      cancel>/passiverestart cancel</click>|> to cancel
     restart-start: The restart has begun
   name-color:
     not-found: These colors do not exist
@@ -283,8 +307,10 @@ command:
   vote:
     message: 'It would be appreciated if you voted here: %s'
   help:
-    message: Click <u><green><click:open_url:https://xbxt.xyz/commands>[Here]</click></green></u> to see the list of commands available on the server
-  generic-not-found: The command does not exist, click <green><click:open_url:https://xbxt.xyz/commands>[Here]</click></green> to see the commands
+    message: Click <u><green><click:open_url:https://xbxt.xyz/commands>[Here]</click></green></u>
+      to see the list of commands available on the server
+  generic-not-found: The command does not exist, click <green><click:open_url:https://xbxt.xyz/commands>[Here]</click></green>
+    to see the commands
   remove-password:
     successful: The player's password was successfully deleted
     error: There was an error deleting the player's password
@@ -293,6 +319,19 @@ command:
     error: There was an error switching to cracked mode, please try again
     is-cracked: You are already in cracked mode
     successful: Your account has been changed. It is now cracked, please rejoin
+  home-list:
+    successful: <white>%s.</white> <|%s|> located in <|%s|> at <|%sm|>
+    hover: <white>click to go to %s</white>
+  rocked:
+    title: Launching in...
+  block:
+    successful: Player(s) %s successfully blocked
+    missing-arg: You must specify at least one player
+  unblock:
+    successful: Player %s successfully unblocked
+    missing-arg: You must specify at least one player
+    not-found: '%s was not found in your block list'
+
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -302,5 +341,56 @@ misc:
 
 
     <dark_gray>< <st>                  </st> | <st>                  </st> >
-  waring-anti-dupe: ⚠ This item is protected, if you attempt to dupe it, your ENTIRE inventory will be automatically DELETED ⚠
+  waring-anti-dupe: ⚠ This item is protected, if you attempt to dupe it, your ENTIRE
+    inventory will be automatically DELETED ⚠
   nether-roof: Nether roof disabled
+achievement:
+  anarchy:
+    root:
+      title: Anarchic
+      description: The beginning of a wild adventure
+    allshulkerbox:
+      title: Variety of flavors
+      description: Obtain all shulker boxes
+    deathbywhither:
+      title: Subliminal message
+      description: Die to a renamed wither
+    renamewither:
+      title: Media control
+      description: Rename a wither
+    fullshulkerbox:
+      title: Dense as lead
+      description: Fill a shulker with identical items
+    fullchestfullshulkerbox:
+      title: XXXXXXXL Load
+      description: Fill a double chest and your inventory with shulkers full of identical items
+    getenderchest:
+      title: Portable Inventory
+      description: Obtain an ender chest
+    escapesusedchorusfruit:
+      title: For my next trick...
+      description: Use a chorus fruit to escape while being completely trapped
+    killplayer:
+      title: Survival of the fittest
+      description: Kill a player
+    getshulkerbox:
+      title: Subatomic space
+      description: Obtain a shulker
+    findhighway:
+      title: Kolyma
+      description: Reach a highway
+    travelshighway4:
+      title: A tenth from pole to equator
+      description: Travel 1,000,000m on the highway
+    travelshighway3:
+      title: From here to space
+      description: Travel 100,000m on the highway
+    getendcrystal:
+      title: Nitroglycerin
+      description: Obtain an End Crystal
+    travelshighway2:
+      title: Spawn outskirts
+      description: Travel 5,000m on the highway
+    travelshighway1:
+      title: Nice ride
+      description: Travel 500m on the highway
