@@ -126,8 +126,8 @@ login:
   two-factor-code-no-equal: El código no son iguales
   two-factor-arrived-message-discord: Revise su discord ya tuvo que haber llegado
     el mensaje
-  limbo-bedrock-error: Hubo un error con conexión del servidor, vuele a intentar a
-    entrar
+  limbo-bedrock-error: Hubo un error con la conexión del servidor, vuele a intentar
+    a entrar
 security:
   kick-anti-two-player: Hay un jugador con tu nombre
 event:
@@ -141,6 +141,9 @@ event:
       Nombre Real: <|%s|>
       Idioma: <|%s|>
       Rango: <|%s|>
+    advancement-challenge: '%s ha completado el desafío %s'
+    advancement-goal: '%s ha completado el meta %s'
+    advancement-task: '%s ha completado el objetivo %s'
 ban:
   error: Hubo un problema con las bases de datos al banear <|%s|> por <|%s|>
   auto-ban-bot: Uso de bots (Baneo Automático)
@@ -267,10 +270,13 @@ command:
     send: Solicitud enviada a %s
     was-disconnected: El jugador que te invito se desconecto
     no-found: No tienes solicitudes de tpa
-    receive: 'Tienes una solicitud de <|%s|> Tpa, Click para <click:run_command:/tpa
-      y><green>[Aceptar]</click> |!>o <click:run_command:/tpa n><green><red>[Denegar]</click> '
+    receive: Tienes una solicitud de <|%s|> Tpa, Click para <hover:show_text:Click
+      para aceptar><click:run_command:/tpa y><green>[Aceptar]</green></click></hover>
+      o <hover:show_text:Click para denegar><click:run_command:/tpa n><green><red>[Denegar]</red></click></hover>
     self: No puedes enviar una solicitud a ti mismo
     expire: Ya expiro el la solicitud de tpa
+    cancel-receive: Te cancelaron la solicitud de tpa
+    cancel-self: Haz cancelado la solicitud de tpa
   home:
     add-successful: El home fue creado
     remove-successful: El home fue borrado
@@ -306,9 +312,9 @@ command:
   vote:
     message: 'Seria un agradecimiento si votaras aquí: %s'
   help:
-    message: Haz click <u><green><click:open_url:https://xbxt.xyz/commands>[Aquí]</click></green></u>
+    message: Haz click en <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green>
       para ver lista de comandos que tiene el servidor
-  generic-not-found: El comandos no existe haz click <green><click:open_url:https://xbxt.xyz/commands>[Aquí]</click></green>
+  generic-not-found: El comandos no existe haz click en <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green>
     para ver los comandos
   remove-password:
     successful: Se borro la contraseña del jugador exitosamente
@@ -318,6 +324,21 @@ command:
     error: Hubo un error al cambiar de modo cracked, vuelve a intentarlo
     is-cracked: Ya estas en modo cracked
     successful: Ya se hizo el cambio de tu cuenta. Ya es cracked, vuelve a entrar
+  rock:
+    # Este mensaje no se esta usando
+    edtitle: Lanzamiento en...
+  home-list:
+    successful: <white>%s.</white> <|%s|> localizado en <|%s|> a <|%sm|>
+    hover: <white>click para ir a %s</white>
+  rocked:
+    title: Lanzamiento en...
+  block:
+    successful: Se bloqueo a los jugador/es %s correctamente
+    missing-arg: Tienes que poner al menos a un jugador
+  unblock:
+    successful: Se desbloqueo al jugado %s correctamente
+    missing-arg: Tienes que poner al menos a un jugador
+    not-found: No se encontrar a %s en tu lista de bloqueo
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -330,4 +351,54 @@ misc:
   waring-anti-dupe: ⚠ Este Item Esta protegido, si intenta dupear se BORRA TODO tu
     inventario automáticamente ⚠
   nether-roof: Techo del nether deshabilitado
-
+achievement:
+  anarchy:
+    root:
+      title: Anárquico
+      description: El comeinzo de una salvaje aventura
+    allshulkerbox:
+      title: Variedad de sabores
+      description: Consegui todas la shulkerBox
+    deathbywhither:
+      title: Mensaje subliminal
+      description: Muere por un wither renombrado
+    renamewither:
+      title: Control de medios
+      description: renombra un whiter
+    fullshulkerbox:
+      title: Denso como el plomo
+      description: llena una shulker con items iguales
+    fullchestfullshulkerbox:
+      title: Carga XXXXXXXL
+      description: Llena un cofre doble y tu inventaro con shulkers llenas de items
+        iguales
+    getenderchest:
+      title: Inventario Portatil
+      description: Consigue un ender chest
+    escapesusedchorusfruit:
+      title: En mi próximo truco...
+      description: Usa una chorus fruit para escapar estando totalmente encerrado
+    killplayer:
+      title: Supervivencia del más fuerte
+      description: Mata a un jugador
+    getshulkerbox:
+      title: Espacio subatómico
+      description: Consigue una shulker
+    findhighway:
+      title: Kolymá
+      description: llega a una hightway
+    travelshighway4:
+      title: una decima del polo al ecuador
+      description: Recorre 1.000.000m por la highway
+    travelshighway3:
+      title: De aqui al espacio
+      description: Recorre 100.000m por la highway
+    getendcrystal:
+      title: Nitroglicerina
+      description: Consigue un End Crystal
+    travelshighway2:
+      title: Periferia del spawn
+      description: Recorre 5.000m por la highway
+    travelshighway1:
+      title: Lindo paseo
+      description: Recorre 500m por la highway
