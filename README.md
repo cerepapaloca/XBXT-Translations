@@ -136,7 +136,7 @@ public enum TypeMessages {
     WARNING(new Tags("yellow"), new Tags("gold")),
     ERROR(new Tags("red"), new Tags("dark_red")),
     KICK(new Tags("red"), new Tags("dark_red>", "b")),
-    NULL(new Tags("gray"), new Tags("dark_red"));
+    GENERIC(new Tags("gray"), new Tags("dark_gray"));
 
     private final Tags mainColor;
     private final Tags secondColor;
