@@ -84,7 +84,7 @@ número u otro tipo de texto.
 
 ### ¿Cuál es la diferencia entré `%1$s` y `%s`?
 Tiene una única diferencia y es el orden de las variables. En `%s` todas las variables salen en el orden
-por defecto mientras en `%1$s` puedes cambiar el orden cambiando su número un ejemplo de esto
+por defecto mientras en `%1$s` puedes cambiar el orden cambiando su número. Un ejemplo de esto:
 
 En este caso solo se está usando `%s`
 ```yml
@@ -116,8 +116,8 @@ está la documentation de MiniMessage.
 
 ### Tipos de mensajes
 
-El plugin tiene una propiedad especial para facilitar el asignado de colores todos los mensajes del plugin tiene una 
-"tipo" que pertenece
+El plugin tiene una propiedad especial para facilitar el asignado de colores a todos los mensajes, donde cada uno tiene un 
+"tipo" al que pertenece
 
 ```java
 package net.atcore.messages;
