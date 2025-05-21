@@ -177,7 +177,7 @@ asi con todos los tipos.
 Para dar énfasis a un mensaje se usa los colores segundario. Para usarse se tiene que abrir con `<|`  y para cerrar con `|>`.
 Por último esta `|!>` que se utlizaria cuando cambias a un color de manera arbitraria y quieres pasar al color original 
 aunque se intenta dejar de usar por qué los formatos de MiniMessage Permite cerrar los tag dejando el color original
-asiendo que no sea tan util. Ejemplo de uso
+haciendo que no sea tan util. Ejemplo de uso
 
 **Sin resalte**
 ```yml
