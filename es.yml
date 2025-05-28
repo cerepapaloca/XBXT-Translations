@@ -128,6 +128,12 @@ login:
     el mensaje
   limbo-bedrock-error: Hubo un error con la conexión del servidor, vuele a intentar
     a entrar
+  form:
+    new-password: Tu nueva contraseña
+    password-again: Otras vez tu contraseña
+    your-password: Tu contraseña
+    title-login: Inicia de sesión
+    title-register: Registrate
 security:
   kick-anti-two-player: Hay un jugador con tu nombre
 event:
@@ -141,15 +147,10 @@ event:
       Nombre Real: <|%s|>
       Idioma: <|%s|>
       Rango: <|%s|>
-    advancement-challenge: '%s ha completado el desafío %s'
-    advancement-goal: '%s ha completado el meta %s'
-    advancement-task: '%s ha completado el objetivo %s'
+    advancement-challenge: <|%s|> ha completado el desafío %s
+    advancement-goal: <|%s|> ha completado el meta %s
+    advancement-task: <|%s|> ha completado el objetivo %s
 ban:
-  error: Hubo un problema con las bases de datos al banear <|%s|> por <|%s|>
-  auto-ban-bot: Uso de bots (Baneo Automático)
-  auto-ban-spam: Por enviar mensajes automatizado en el chat (Baneo Automático)
-  auto-ban-dupe: Uso de Dupes (Baneo Automático)
-  auto-ban-ilegal-items: Obtención de items ilegal (Baneo Automático)
   author-auto-ban: Servidor
 inventory:
   manipulator:
@@ -160,8 +161,6 @@ data:
 command:
   generic-no-permission: No tienes autorización para ejecutar ese comando
   generic-no-login: Primero inicia sessión usando <|/login|>
-  generic-no-permission-console: No tienes autorización para ejecutar comandos en
-    la consola
   generic-run-log: <|%s|> -> %s
   generic-exception-error: Ops!! Hubo un error al ejecutar el comando contacta con
     el desarrollador
@@ -249,11 +248,6 @@ command:
     password-too-short: La contraseña es muy corta tiene que ser mayor a %s letras
     is-premium: Los premium no se registran
     already: Ya estas registrado
-  remove-register:
-    successful: Se borro el registro al jugador <|%s|>
-    error: Hubo un error al borrar al jugador <|%s|>, vuelva a intentarlo
-  remove-session:
-    successful: Se le borro la sesión al jugador
   see-inventory:
     error: No puedes ver el inventarió de otro jugador que también este mirando un
       inventarió
@@ -286,18 +280,23 @@ command:
     contains-point: El home no puede tener puntos
     max-home: Solo se permite máximo %s homes
     close-spawn: Esta muy cercar de spawn te falta <|%s|> metros para hacer <|<click:run_command:/home>/home</click>|>
+    too-length: El nombre del home es muy largo
   say:
     missing-args: Te falta el mensaje
   tell:
     feedback: '&ole haz susurrado a %s -> %s'
-    format-message: '&o %s -> %s'
+    format-message: '&o %1$s -> %2$s'
     missing-target: Tienes que poner el nombre del jugador
     missing-message: Te falta el mensaje
+    no-login: No se puede enviar el mensaje a <|%s|>, por que no esta logueado
   premium:
     is-premium: Esta cuenta ya es premium
     is-cracked: El nombre de usuario no pertenece a mojang
     successful: Ya se hizo el cambio de tu cuenta. Ya es premium, vuelve a entrar
     error: Hubo un error al cambiar su estado de cuenta, vuelve a intentarlo
+    confirm: <red><b>Advertencia</b></red> Solo ejecutar cuando tiene una cuenta oficial
+      de microsoft, En caso que sea asi ejecuta este commando <|<Click:suggest_command:/confirm>/confirm</click>|>
+      o <|<Click:suggest_command:/premium>/premium</click>|> para pasar al modo premium
   confirm:
     not-found: No tienes comandos por confirmar
   passive:
@@ -316,17 +315,13 @@ command:
       para ver lista de comandos que tiene el servidor
   generic-not-found: El comandos no existe haz click en <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green>
     para ver los comandos
-  remove-password:
-    successful: Se borro la contraseña del jugador exitosamente
-    error: Hubo un error al borrar la contraseña del jugador
-    not-found: No se encontró el jugador
   cracked:
     error: Hubo un error al cambiar de modo cracked, vuelve a intentarlo
     is-cracked: Ya estas en modo cracked
     successful: Ya se hizo el cambio de tu cuenta. Ya es cracked, vuelve a entrar
-  rock:
-    # Este mensaje no se esta usando
-    edtitle: Lanzamiento en...
+    confirm: <red><b>Advertencia</b></red> En caso de que tu cuenta tenga una contraseña,
+      tendrás que iniciar con esa contraseña, En caso contrario te pedirá que te registre.
+      Si quieres proseguir ejecuta <|este mismo comando|> o <|<Click:suggest_command:/premium>/premium</click>|>
   home-list:
     successful: <white>%s.</white> <|%s|> localizado en <|%s|> a <|%sm|>
     hover: <white>click para ir a %s</white>
@@ -339,6 +334,12 @@ command:
     successful: Se desbloqueo al jugado %s correctamente
     missing-arg: Tienes que poner al menos a un jugador
     not-found: No se encontrar a %s en tu lista de bloqueo
+  logout:
+    confirm: Seguro que desea cerrar sesión, Si es asi ejecuta <|<Click:suggest_command:/confirm>/confirm</click>|>
+      o vuelve a ejecutar este commando
+  avia-terra-remove:
+    error: Hubo un error al borrar los datos del jugador <|%s|>, Revise la consola
+    successful: Se le borro exitosamente los datos
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -351,6 +352,17 @@ misc:
   waring-anti-dupe: ⚠ Este Item Esta protegido, si intenta dupear se BORRA TODO tu
     inventario automáticamente ⚠
   nether-roof: Techo del nether deshabilitado
+  active: Activo
+  desactive: Desativado
+  tab:
+    header: "<gradient:#581cce:#3f39ea>&lX Bᴜɪʟᴅᴇʀ</gradient> <gradient:#fb8316:#fbb61f>&lX\
+      \ Tᴏᴏʟꜱ</gradient>\n "
+    footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING\
+      \ %ping%</gradient>\n<gradient:#581cce:#3f39ea>Tiempo Activo:</gradient><gradient:#fb8316:#fbb61f>\
+      \ %AviaTerraCore_active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄ\
+      ᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
+  on-combat: No puedes hacer está acción en combate
+  hover-command: '<green>Click para sugerir este comando: %s</green>'
 achievement:
   anarchy:
     root:
@@ -402,3 +414,7 @@ achievement:
     travelshighway1:
       title: Lindo paseo
       description: Recorre 500m por la highway
+    breakenderchest:
+      title: Fractalización
+      description: Rompe 5 ender chest sin toque de seda
+
