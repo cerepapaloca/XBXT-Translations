@@ -10,7 +10,7 @@ death-cause:
     vindicator: <|%2$s|> killed <|%1$s|>
     illusioner: <|%2$s|> killed <|%1$s|>
     creeper:
-    - a <|%2$s|> sacrificed himself killing <|%1$s|>
+    - a <|%2$s|> self-destructed killing <|%1$s|>
     - a <|%2$s|> exploded in <|%1$s|>'s face
     skeleton:
     - A <|%2$s|> shot an arrow into <|%1$s|>'s forehead
@@ -21,49 +21,48 @@ death-cause:
     zombified-piglin: <|%2$s|> killed <|%1$s|>
     enderman: <|%1$s|> forgot how strong a <|%2$s|> is
     cave-spider: <|%1$s|> was eaten by <|%2$s|>
-    silverfish: A <|%2$s|> somehow managed to kill <|%1$s|>
-    blaze: A <|%2$s|> turned <|%1$s|> into ashes
+    silverfish: A tiny <|%2$s|> managed to kill <|%1$s|>
+    blaze: A <|%2$s|> turned <|%1$s|> to ashes
     wither: A <|%2$s|> split <|%1$s|> in half
     witch: A <|%2$s|> killed <|%1$s|>
-    endermite: A <|%2$s|> managed to kill <|%1$s|>. What a noob
+    endermite: A <|%2$s|> managed to kill <|%1$s|>. what a noob
     guardian: A <|%2$s|> successfully defended against <|%1$s|>
     shulker: A <|%2$s|> didn't let <|%1$s|> kill it
-    snow-golem: Somehow a <|%2$s|> managed to kill <|%1$s|>
+    snow-golem: somehow a <|%2$s|> managed to kill <|%1$s|>
     iron-golem: A <|%2$s|> rebelled against <|%1$s|>
-    drowned: <|%1$s|> was dragged into the depths by a <|%2$s|>
-    pillager: A <|%2$s|> introduced <|%1$s|> to its axe
+    drowned: <|%1$s|> was sent to the depths thanks to a <|%2$s|>
+    pillager: A <|%2$s|> made <|%1$s|> acquainted with its axe
     ravager: <|%2$s|> killed <|%1$s|>
     piglin:
     - A <|%2$s|> killed <|%1$s|> for not carrying gold
-    - A <|%2$s|> killed <|%1$s|> because they forgot the gold
-    - A <|%2$s|> got angry with <|%1$s|> for not carrying gold and ended up killing
-      them
+    - A <|%2$s|> killed <|%1$s|> for forgetting the gold
+    - A <|%2$s|> got angry with <|%1$s|> for not carrying gold and ended up killing them
     zoglin: A <|%2$s|> killed <|%1$s|>
     piglin-brute:
-    - A <|%2$s|> introduced <|%1$s|> to its axe
+    - A <|%2$s|> made <|%1$s|> acquainted with its axe
     - A <|%2$s|> split <|%1$s|> in half
     warden:
-    - The <|%2$s|> destroyed <|%1$s|> (how brave)
+    - THE <|%2$s|> destroyed <|%1$s|> (how brave)
     - A <|%2$s|> split <|%1$s|> in half
     breeze: A <|%2$s|> burned <|%1$s|>
     bogged:
     - A <|%2$s|> implanted mushrooms in <|%1$s|>
     - A <|%2$s|> shot a mushroom arrow at <|%1$s|>
   kill: <|%1$s|> died for no reason
-  world-border: <|%1$s|> died due to the world border
-  contact: <|%1$s|> died because they were touching something they shouldn't
+  world-border: <|%1$s|> died from the world border
+  contact: <|%1$s|> died from touching something they shouldn't have
   entity-attack: <|%2$s|> killed <|%1$s|> with their <|%3$s|>
-  entity-sweep-attack: <|%2$s|> destroyed <|%1$s|> with their <|%3$s|>
+  entity-sweep-attack: <|%2$s|> destroyed <|%1$s|> with their %3$s
   projectile: <|%1$s|> was shot by <|%2$s|> with their <|%3$s|>
   suffocation: <|%1$s|> suffocated
-  fall: <|%1$s|> hit the ground
+  fall: <|%1$s|> crashed into the ground
   fire: <|%1$s|> burned to death
   fire-tick: <|%1$s|> was reduced to ashes
   melting: a snowman killed <|%1$s|>
   lava: <|%1$s|> swam in lava
   drowning: <|%1$s|> drowned
-  block-explosion: <|%1$s|> had something explode in their face
-  entity-explosion: <|%1$s|> had someone explode in their face
+  block-explosion: something exploded in <|%1$s|>'s face
+  entity-explosion: someone exploded in <|%1$s|>'s face
   void: <|%1$s|> entered the void
   lightning: <|%1$s|> was struck by lightning
   suicide: <|%1$s|> ended their life
@@ -71,33 +70,30 @@ death-cause:
   poison: <|%1$s|> died from a poison potion
   magic: <|%1$s|> died in a magical way lol
   wither: <|%1$s|> died from the wither effect
-  falling-block: <|%1$s|> had a block fall on their head
+  falling-block: <|%1$s|> was hit by a falling block
   thorns: <|%1$s|> died from karma
   dragon-breath: <|%1$s|> died from the dragon
   custom: <|%1$s|> was killed by something
   fly-into-wall: <|%1$s|> pulled a 9/11
   hot-floor: <|%1$s|> burned their feet
   campfire: <|%1$s|> sat on a campfire
-  cramming: <|%1$s|> got crammed with other entities
-  dryout: <|%1$s|> drowned in the air
-  freeze: <|%1$s|> couldn't handle the cold
+  cramming: <|%1$s|> was crammed with other beings
+  dryout: <|%1$s|> drowned in air
+  freeze: <|%1$s|> couldn't handle team cold
   sonic-boom: <|%1$s|> was killed by the warden's scream
-  end-crystal: <|%1$s|> was killed by an <lang:entity.minecraft.end_crystal> placed
-    by <|%2$s|>
+  end-crystal: <|%1$s|> was killed with a <lang:entity.minecraft.end_crystal> by <|%2$s|>
 test:
-  finished: The test has finished
-  message: Hello world!! This is a <|Test|>
+  finished: The test has ended
+  message: Hello world!! this is a <|Test|>
 login:
   kick-generic: Connection error, please try again
   kick-premium-validation: A discrepancy was detected. Restart your client
   kick-password-error: There was an error saving your password, please log in again
   kick-address-error: There was an error saving your data, please log in again
-  kick-register-error: There was a problem with your registration, please register
-    again
+  kick-register-error: There was a problem with your registration, please register again
   kick-session-error: There was a problem with your session, please log in again
-  kick-key-error: There was a problem with your secret key, please rejoin the server.
-    If the problem persists, restart your launcher
-  kick-online-mode: The server has entered online mode
+  kick-key-error: There was a problem with your secret key, please rejoin the server. If the problem persists, restart your launcher
+  kick-online-mode: The server went into online mode
   kick-unknown-state: Please rejoin, there was a problem with your account
   kick-entry-limbo-error: Error entering limbo mode, please rejoin
   kick-no-register: You are not registered, please rejoin the server
@@ -113,25 +109,29 @@ login:
   limbo-initiated-by-register-subtitle: <|/register <Password> <Password>|>
   limbo-time-out-session: You took too long to log in
   limbo-time-out-register: You took too long to register
-  limbo-chat-write: You need to log in to write in the chat
-  two-factor-link-title: You need to run this command to link your account
+  limbo-chat-write: You need to log in to write in chat
+  two-factor-link-title: You must execute this command to link your account
   two-factor-link-subtitle: /link %s
-  two-factor-code-title: Here is your one-time code. This code should not be shared
-    and is valid for 2 minutes
+  two-factor-code-title: Here is your one-time code. This code should not be shared and is valid for 2 minutes
   two-factor-code-subtitle: '%s'
   two-factor-subject-gmail: Two-step verification code from xB XT
-  two-factor-no-found-code: You don't have a code, use <|/link|> to get one
-  two-factor-uuid-no-equal: There was a discrepancy, please send a new code
+  two-factor-no-found-code: you don't have a code, use <|/link|> to get one
+  two-factor-uuid-no-equal: there was a discrepancy, please send a new code
   two-factor-expire-code: The code has expired
-  two-factor-code-no-equal: The codes do not match
-  two-factor-arrived-message-discord: Check your Discord, the message should have
-    arrived
+  two-factor-code-no-equal: The codes don't match
+  two-factor-arrived-message-discord: Check your discord, the message should have arrived
   limbo-bedrock-error: There was an error with the server connection, please try again
+  form:
+    new-password: Your new password
+    password-again: Your password again
+    your-password: Your password
+    title-login: Log in
+    title-register: Register
 security:
-  kick-anti-two-player: There's a player with your name
+  kick-anti-two-player: There is a player with your name
 event:
-  quit: '&8[&4-&8]|!> The player <|%s|> has disconnected'
-  join: '&8[&a+&8]|!> The player<click:suggest_command:/w %1$s> <|%1$s|> has joined'
+  quit: '&8[&4-&8]|!> Player <|%s|> has disconnected'
+  join: '&8[&a+&8]|!> Player<click:suggest_command:/w %1$s> <|%1$s|> has joined'
   chat:
     format: '%1$s&r » %2$s'
     hover: |
@@ -140,198 +140,176 @@ event:
       Real Name: <|%s|>
       Language: <|%s|>
       Rank: <|%s|>
+    advancement-challenge: <|%s|> has completed the challenge %s
+    advancement-goal: <|%s|> has completed the goal %s
+    advancement-task: <|%s|> has completed the objective %s
 ban:
-  error: There was a problem with the database while banning <|%s|> for <|%s|>
-  auto-ban-bot: Bot usage (Auto Ban)
-  auto-ban-spam: For sending automated messages in chat (Auto Ban)
-  auto-ban-dupe: Duping usage (Auto Ban)
-  auto-ban-ilegal-items: Obtaining illegal items (Auto Ban)
   author-auto-ban: Server
 inventory:
   manipulator:
-    title: Moderation Inventory
+    title: Moderation inventory
 data:
   mysql:
     exception: There was an error modifying the data
 command:
-  generic-no-permission: You are not authorized to execute this command
-  generic-no-login: First, log in using <|/login|>
-  generic-no-permission-console: You are not authorized to execute commands in the
-    console
+  generic-no-permission: You are not authorized to execute that command
+  generic-no-login: First log in using <|/login|>
   generic-run-log: <|%s|> -> %s
-  generic-exception-error: Oops!! There was an error executing the command, contact
-    the developer
+  generic-exception-error: Oops!! There was an error executing the command, contact the developer
   generic-args-error: 'Missing argument: %s'
   generic-format-date-error: The date format is incorrect
   generic-no-player: This command can only be executed by a player
-  generic-player-not-found: The player does not exist or is offline
-  generic-players-not-found: The player(s) <|%s|> are not connected or do not exist
+  generic-player-not-found: The player doesn't exist or is offline
+  generic-players-not-found: The player/s <|%s|> is not connected or doesn't exist
   add-range:
-    not-found-range: The rank does not exist
+    not-found-range: The rank doesn't exist
     successful: The item was given successfully
     name: Rank %1$s by %2$s
     missing-argument-time: You need to specify the duration time
   ban:
-    missing-argument-time: You need to specify the ban duration
+    missing-argument-time: You need to specify a ban duration
     missing-argument-reason: You need to provide a ban reason
-    not-found-context: The context does not exist
-    data-base-error: There was a problem with the database, please execute the command
-      again
+    not-found-context: The context doesn't exist
+    data-base-error: There was a problem with the database, please execute the command again
     successful: The player will be banned, check the logs to confirm
   change-password:
-    not-equal-password: Incorrect password. If you don't remember your password and
-      have an email or Discord linked, you can send a verification code using <|/link
-      <discord | gmail>|>
+    not-equal-password: Incorrect password. If you don't remember your password and have a linked email or discord, you can send a verification code using <|/link <discord | gmail>|>
     successful: The password was changed successfully
     error: There was an error changing the password
-    successful-log: The player <|%1$s|> changed their password using their <|%2$s>
+    successful-log: Player <|%1$s|> changed their password with their <|%2$s>
   check-ban:
     missing-argument-context: Missing context
     not-found-ban: Not banned
-    not-found-context: The context does not exist
+    not-found-context: The context doesn't exist
     not-found-ban-in-context: The player is not banned from any context
-    not-found-but: 'The player is banned but not from the selected context, but is
-      banned from:'
-    found-and-kick: The player <|%1$s|> was kicked from the context <|%2$s|>
-    found: '<white>-|!> Banned from <|%1$s|>, expires in <|%2$s|>, reason: <|%3$s|>'
-    error: There was a problem finding the player's information <|%1$s|>
+    not-found-but: 'The player is banned but not from the selected context, but is banned from:'
+    found-and-kick: Player <|%1$s|> was kicked from context <|%2$s|>
+    found: <white>-|!> Banned from <|%1$s|>, expires in <|%2$s|> and the reason is <|%3$s|>
+    error: There was a problem finding information for player <|%1$s|>
   freeze:
     missing-args-last: You need to put true or false
-    already-freeze: The player is already frozen
-    already-unfreeze: The player is already unfrozen
-    unfreeze-author: The player has been unfrozen
-    unfreeze-target: You have been unfrozen
-    freeze-author: The player has been frozen
-    freeze-target: You have been frozen, please speak with the staff
+    already-freeze: The player was already frozen
+    already-unfreeze: The player was already unfrozen
+    unfreeze-author: The player was unfrozen
+    unfreeze-target: You were unfrozen
+    freeze-author: The player was frozen
+    freeze-target: You were frozen, please speak with staff
   link:
     send-gmail-1: An email was sent to %s with the code
-    send-discord-1: A direct message is being sent with the code
-    already-gmail: You already have a linked email, use the command to link a new
-      email
-    already-discord: You already have a linked Discord account, use the command to
-      link a new Discord account
+    send-discord-1: A direct message with the code is being sent
+    already-gmail: You already have a linked email, just use the command to link a new email
+    already-discord: You already have a linked discord account, just use the command to link a new discord account
     arrived-message-gmail: Check your inbox, the message should have arrived
     successful: Authentication completed
-    error: There was an error with the authentication, please try again
-    missing-args-gmail: You need to provide your Gmail or the verification code
-    gmail-no-login: To link your Gmail, you need to be logged in
-    send-gmail-2: An email is being sent with the code
-    not-found-gmail: You do not have a linked Gmail
-    missing-args-discord: You need to provide your Discord ID or the verification
-      code
-    discord-no-login: To link your Discord, you need to be logged in
-    send-discord-2: A direct message is being sent with the code
-    not-fount-discord: You do not have a linked Discord
-    missing-args: You need to provide Discord, Gmail, or a code
+    error: There was an error with authentication, please try again
+    missing-args-gmail: You need to put your gmail or the verification code
+    gmail-no-login: To link your gmail you need to be logged in
+    send-gmail-2: An email with the code is being sent
+    not-found-gmail: You don't have a linked Gmail
+    missing-args-discord: You need to put your Discord ID or the verification code
+    discord-no-login: To link your Discord you need to be logged in
+    send-discord-2: A direct message with the code is being sent
+    not-fount-discord: You don't have a linked Discord
+    missing-args: You need to put discord, gmail or a code
   login:
     already: You are already logged in
     no-register: You are not registered, use <|/register|>
-    missing-args: You need to provide your password
+    missing-args: You need to put your password
     successful-chat: You have successfully logged in
     successful-title: Welcome back
     successful-subtitle: <|&o%s|>
-    no-equal-password: Incorrect password or code, please try again. If you don't
-      remember your password and have an email or Discord linked, you can send a verification
-      code using <|/link <discord | gmail>|>
-    banned: For your safety, this account is temporarily suspended due to too many
-      failed attempts
+    no-equal-password: incorrect password or code, please try again. If you don't remember your password and have a linked email or discord, you can send a verification code using <|/link <discord | gmail>|>
+    banned: For your security, this account is temporarily suspended for too many failed attempts
   register:
-    successful-chat: You have successfully registered
+    successful-chat: You registered successfully
     successful-title: Welcome to %s
     successful-subtitle: <|&o%s|>
-    no-equal-password: The passwords do not match
-    missing-args-password: You need to write the password twice like this /register
-      <password> <password>
-    password-equal-name: Your password cannot be the same as your username
-    password-too-short: The password is too short, it must be longer than %s characters
-    is-premium: Premium users do not register
+    no-equal-password: Passwords don't match
+    missing-args-password: You need to write the password twice like /register <password> <password>
+    password-equal-name: Your password can't be the same as your username
+    password-too-short: The password is too short, it needs to be longer than %s characters
+    is-premium: Premium accounts don't register
     already: You are already registered
-  remove-register:
-    successful: The registration for the player <|%s|> was deleted
-    error: There was an error deleting the player <|%s|>, please try again
-  remove-session:
-    successful: The player's session was deleted
   see-inventory:
-    error: You cannot view the inventory of another player who is also viewing an
-      inventory
-    missing-args: You need to provide the player's name
+    error: You can't see another player's inventory who is also viewing an inventory
+    missing-args: you need the player's name
   unban:
-    not-found-context: Invalid context
+    not-found-context: invalid context
     successful: The player will be unbanned, check the logs to confirm
   weapon:
-    missing-args-name: Missing the weapon name
-    missing-args-type: The weapon type does not exist
+    missing-args-name: Missing weapon name
+    missing-args-type: The weapon type doesn't exist
     successful: The weapon was given successfully
-    not-found-type: The weapon type does not exist
+    not-found-type: The weapon type doesn't exist
   tpa:
     send: Request sent to %s
     was-disconnected: The player who invited you disconnected
-    no-found: You do not have any TPA requests
-    receive: 'You have a request from <|%s|> Tpa, Click to <hover:show_text:Click to accept><click:run_command:/tpa y><green>[Accept]</green></click></hover> or <hover:show_text:Click to deny><click:run_command:/tpa n><green><red>[Deny]</red></click></hover>'
-    self: You cannot send a request to yourself
-    expire: The TPA request has expired
-    cancel-receive: Your TPA request has been canceled
-    cancel-self: You have canceled the TPA request
+    no-found: You don't have any tpa requests
+    receive: You have a tpa request from <|%s|>, Click to <hover:show_text:Click to accept><click:run_command:/tpa y><green>[Accept]</green></click></hover> or <hover:show_text:Click to deny><click:run_command:/tpa n><green><red>[Deny]</red></click></hover>
+    self: You can't send a request to yourself
+    expire: The tpa request has expired
+    cancel-receive: Your tpa request was canceled
+    cancel-self: You canceled the tpa request
   home:
-    add-successful: The Home was created successfully
+    add-successful: The home was created
     remove-successful: The home was deleted
-    not-found-remove: The home does not exist
-    not-found: The home does not exist, you can create one using <|<click:run_command:/home
-      %1$s add>/home %1$s add</click>|>
-    contains-point: The home cannot have points
+    not-found-remove: The home doesn't exist
+    not-found: The home doesn't exist, you can create one using <|<click:run_command:/home %1$s add>/home %1$s add</click>|>
+    contains-point: The home can't have points
     max-home: Only a maximum of %s homes are allowed
-    close-spawn: You are too close to spawn, you need <|%s|> more meters to use <|<click:run_command:/home>/home</click>|>
+    close-spawn: Too close to spawn, you need <|%s|> more meters to make <|<click:run_command:/home>/home</click>|>
+    too-length: The home name is too long
   say:
-    missing-args: You are missing the message
+    missing-args: You're missing the message
   tell:
-    feedback: '&oYou whispered to %s -> %s'
-    format-message: '&o %s -> %s'
-    missing-target: You need to provide the player's name
-    missing-message: You are missing the message
+    feedback: '&oyou whispered to %s -> %s'
+    format-message: '&o %1$s -> %2$s'
+    missing-target: You need to put the player's name
+    missing-message: You're missing the message
+    no-login: Can't send the message to <|%s|>, because they're not logged in
   premium:
     is-premium: This account is already premium
-    is-cracked: The username does not belong to Mojang
-    successful: Your account has been changed. It is now premium, please rejoin
+    is-cracked: The username doesn't belong to mojang
+    successful: Your account status has been changed. It's now premium, please rejoin
     error: There was an error changing your account status, please try again
+    confirm: <red><b>Warning</b></red> Only execute when you have an official microsoft account, If that's the case execute this command <|<Click:suggest_command:/confirm>/confirm</click>|> or <|<Click:suggest_command:/premium>/premium</click>|> to switch to premium mode
   confirm:
-    not-found: You have no commands to confirm
+    not-found: You don't have any commands to confirm
   passive:
     restart-cancel: The reset was canceled
-    restart-init: The passive reset has started, use <|<click:suggest_command:/passiverestart
-      cancel>/passiverestart cancel</click>|> to cancel
+    restart-init: Passive reset started, use <|<click:suggest_command:/passiverestart cancel>/passiverestart cancel</click>|> to cancel
     restart-start: The restart has begun
   name-color:
-    not-found: These colors do not exist
+    not-found: These colors don't exist
   discord:
-    message: 'Join our Discord community: %s'
+    message: 'Join our discord community: %s'
   vote:
     message: 'It would be appreciated if you voted here: %s'
   help:
-    message: Click <u><green><click:open_url:https://xbxt.xyz/commands>[Here]</click></green></u>
-      to see the list of commands available on the server
-  generic-not-found: The command does not exist, click <green><click:open_url:https://xbxt.xyz/commands>[Here]</click></green>
-    to see the commands
-  remove-password:
-    successful: The player's password was successfully deleted
-    error: There was an error deleting the player's password
-    not-found: The player was not found
+    message: Click on <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green> to see the list of commands available on the server
+  generic-not-found: The command doesn't exist, click on <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green> to see the commands
   cracked:
     error: There was an error switching to cracked mode, please try again
-    is-cracked: You are already in cracked mode
-    successful: Your account has been changed. It is now cracked, please rejoin
+    is-cracked: You're already in cracked mode
+    successful: Your account status has been changed. It's now cracked, please rejoin
+    confirm: <red><b>Warning</b></red> In case your account has a password, you'll need to log in with that password, otherwise it will ask you to register. If you want to proceed execute <|this same command|> or <|<Click:suggest_command:/premium>/premium</click>|>
   home-list:
-    successful: <white>%s.</white> <|%s|> located in <|%s|> at <|%sm|>
+    successful: <white>%s.</white> <|%s|> located at <|%s|> at <|%sm|>
     hover: <white>click to go to %s</white>
   rocked:
     title: Launching in...
   block:
-    successful: Player(s) %s successfully blocked
-    missing-arg: You must specify at least one player
+    successful: Player/s %s were successfully blocked
+    missing-arg: You need to put at least one player
   unblock:
-    successful: Player %s successfully unblocked
-    missing-arg: You must specify at least one player
-    not-found: '%s was not found in your block list'
-
+    successful: Player %s was successfully unblocked
+    missing-arg: You need to put at least one player
+    not-found: Couldn't find %s in your block list
+  logout:
+    confirm: Are you sure you want to log out? If so, execute <|<Click:suggest_command:/confirm>/confirm</click>|> or run this command again
+  avia-terra-remove:
+    error: There was an error deleting player <|%s|>'s data, check the console
+    successful: The data was successfully deleted
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -341,56 +319,66 @@ misc:
 
 
     <dark_gray>< <st>                  </st> | <st>                  </st> >
-  waring-anti-dupe: ⚠ This item is protected, if you attempt to dupe it, your ENTIRE
-    inventory will be automatically DELETED ⚠
+  waring-anti-dupe: ⚠ This Item is protected, if you try to dupe it your ENTIRE inventory will be automatically deleted ⚠
   nether-roof: Nether roof disabled
+  active: Active
+  desactive: Inactive
+  tab:
+    header: "<gradient:#581cce:#3f39ea>&lX Bᴜɪʟᴅᴇʀ</gradient> <gradient:#fb8316:#fbb61f>&lX Tᴏᴏʟꜱ</gradient>\n "
+    footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING %ping%</gradient>\n<gradient:#581cce:#3f39ea>Uptime:</gradient><gradient:#fb8316:#fbb61f> %AviaTerraCore_active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
+  on-combat: You can't do this action in combat
+  hover-command: '<green>Click to suggest this command: %s</green>'
 achievement:
   anarchy:
     root:
-      title: Anarchic
+      title: Anarchist
       description: The beginning of a wild adventure
     allshulkerbox:
       title: Variety of flavors
-      description: Obtain all shulker boxes
+      description: Obtain all shulkerBoxes
     deathbywhither:
       title: Subliminal message
-      description: Die to a renamed wither
+      description: Die by a renamed wither
     renamewither:
       title: Media control
-      description: Rename a wither
+      description: rename a wither
     fullshulkerbox:
       title: Dense as lead
-      description: Fill a shulker with identical items
+      description: fill a shulker with identical items
     fullchestfullshulkerbox:
-      title: XXXXXXXL Load
+      title: XXXXXXXL load
       description: Fill a double chest and your inventory with shulkers full of identical items
     getenderchest:
       title: Portable Inventory
-      description: Obtain an ender chest
+      description: Get an ender chest
     escapesusedchorusfruit:
-      title: For my next trick...
-      description: Use a chorus fruit to escape while being completely trapped
+      title: In my next trick...
+      description: Use a chorus fruit to escape while completely trapped
     killplayer:
       title: Survival of the fittest
       description: Kill a player
     getshulkerbox:
       title: Subatomic space
-      description: Obtain a shulker
+      description: Get a shulker
     findhighway:
-      title: Kolyma
-      description: Reach a highway
+      title: Kolymá
+      description: reach a highway
     travelshighway4:
-      title: A tenth from pole to equator
+      title: a tenth from the pole to the equator
       description: Travel 1,000,000m on the highway
     travelshighway3:
       title: From here to space
       description: Travel 100,000m on the highway
     getendcrystal:
       title: Nitroglycerin
-      description: Obtain an End Crystal
+      description: Get an End Crystal
     travelshighway2:
-      title: Spawn outskirts
+      title: Spawn periphery
       description: Travel 5,000m on the highway
     travelshighway1:
-      title: Nice ride
+      title: Nice walk
       description: Travel 500m on the highway
+    breakenderchest:
+      title: Fractalization
+      description: Break 5 ender chests without silk touch
+  
