@@ -48,6 +48,7 @@ death-cause:
     bogged:
     - Un <|%2$s|> le implato hongos a <|%1$s|>
     - Un <|%2$s|> le dio un flechazo de hongos a <|%1$s|>
+    creaking: <|%2$s|> le partio el cuello a <|%1$s|>
   kill: <|%1$s|> se murió por que si
   world-border: <|%1$s|> murió por el world border
   contact: <|%1$s|> murió por estaba tocando algo que no debía
@@ -134,6 +135,8 @@ login:
     your-password: Tu contraseña
     title-login: Inicia de sesión
     title-register: Registrate
+  kick-max-account: 'Ya superaste el numero máximo de cuentas. Tienes estas cuentas:
+    %s'
 security:
   kick-anti-two-player: Hay un jugador con tu nombre
 event:
@@ -150,6 +153,7 @@ event:
     advancement-challenge: <|%s|> ha completado el desafío %s
     advancement-goal: <|%s|> ha completado el meta %s
     advancement-task: <|%s|> ha completado el objetivo %s
+    spam: 'Has superado el limite de mensaje espera <|%.1fs|> para escribir de vuelta '
 ban:
   author-auto-ban: Servidor
 inventory:
@@ -308,6 +312,9 @@ command:
     not-found: Estos colores no existe
   discord:
     message: 'Únete a nuestra comunidad de discord: %s'
+    link:
+      message: Para vincular haz click <click:run_command:%s><green>[Aquí]</green></click>
+        para vincular tu cuenta de discord
   vote:
     message: 'Seria un agradecimiento si votaras aquí: %s'
   help:
@@ -340,6 +347,39 @@ command:
   avia-terra-remove:
     error: Hubo un error al borrar los datos del jugador <|%s|>, Revise la consola
     successful: Se le borro exitosamente los datos
+  map-art:
+    missing-item: Para subir un map art lo tienes que tener en la mano
+    no-have-map: No tiene ningún mapArt
+    map-no-found: No existe un map art
+    map-no-found-but: "No tienes ese mapArt pero tienes estos: \n%s"
+    show-all-map: "Estos son todos tus mapArt: \n%s"
+    too-many-map: <i>Sobran Mapas</i>
+    missing-map: <i>Falta mapArt</i>
+    no-your-map: Solo puedes modificar tus mapArt
+    hover: Click para ver mapArt
+    delete: Borraste el map correctamente
+    invalid-type: Ese tipo de mapa no es valido
+    help: |
+      <|¿Como puedo subir mi mapArt?|>
+      Solo necesitas un mapa en tu mano y ejecuta <suggest:/mapart>/mapart</suggest>, luego mapArt sera publico
+
+      <|¿Que hago si mi mapArt es más grande?|>
+      Solo ejecuta <suggest:/mapart [id] size>/mapart [id] size x y</suggest> remplaza <|[id]|> por la id del mapa y la X por la altura, Y por el ancho.
+      Luego de eso ejecuta <suggest:/mapart [id] ids>/mapart [id] ids</suggest> remplaza <|[id]|> por la id del mapa y añade la id del mapa, por ejemplo: <|/mapart [id] ids 224 225 226 227|>
+
+      <i>Cualquier duda pregunta por discord</i>
+    feed-back: |
+      El mapa ya es publico con estos datos
+      id: <|<click:copy_to_clipboard:%1$s><hover:show_text:Click Para Copiar>%s</hover></click>|>
+      Tamaño: <|%s|> <hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s size ><b><green>[Cambiar]</green></b></click></hover>
+      %s
+      <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s ids >[Cambiar]</click></hover></green></b>
+      Nombre: <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s name >[Cambiar]</click></hover></green></b>
+      Description: <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s description >[Cambiar]</click></hover></green></b>
+      Autor(es): <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s author >[Cambiar]</click></hover></green></b>
+      NSFW: <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s nsfw >[Cambiar]</click></hover></green></b>
+      Tipo de mapa: <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s type >[Cambiar]</click></hover></green></b>
+      <b><red><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s delete >[Borrar]</hover></red></b>
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -359,10 +399,10 @@ misc:
       \ Tᴏᴏʟꜱ</gradient>\n "
     footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING\
       \ %ping%</gradient>\n<gradient:#581cce:#3f39ea>Tiempo Activo:</gradient><gradient:#fb8316:#fbb61f>\
-      \ %AviaTerraCore_active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄ\
-      ᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
+      \ %active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
   on-combat: No puedes hacer está acción en combate
   hover-command: '<green>Click para sugerir este comando: %s</green>'
+  click-to-copy: Click para copiar
 achievement:
   anarchy:
     root:

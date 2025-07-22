@@ -48,6 +48,7 @@ death-cause:
     bogged:
     - Um <|%2$s|> implantou cogumelos em <|%1$s|>
     - Um <|%2$s|> acertou uma flecha de cogumelos em <|%1$s|>
+    creaking: <|%1$s|> quebrou o pescoço de <|%1$s|>
   kill: <|%1$s|> morreu sem motivo
   world-border: <|%1$s|> morreu pela borda do mundo
   contact: <|%1$s|> morreu por estar tocando algo que não devia
@@ -143,6 +144,7 @@ event:
     advancement-challenge: <|%s|> completou o desafio %s
     advancement-goal: <|%s|> completou a meta %s
     advancement-task: <|%s|> completou o objetivo %s
+    spam: 'Você excedeu o limite de mensagens, aguarde <|%.1fs|> para responder'
 ban:
   author-auto-ban: Servidor
 inventory:
@@ -283,6 +285,8 @@ command:
     not-found: Estas cores não existem
   discord:
     message: 'Junte-se à nossa comunidade do discord: %s'
+    link:
+      message: Para vincular, clique em <click:run_command:%s><green>[Aqui]</green></click> para vincular sua conta do Discord
   vote:
     message: 'Seria um agradecimento se você votasse aqui: %s'
   help:
@@ -310,6 +314,40 @@ command:
   avia-terra-remove:
     error: Houve um erro ao deletar os dados do jogador <|%s|>, verifique o console
     successful: Os dados foram deletados com sucesso
+  map-art:
+    missing-item: Para enviar uma map art, você precisa tê-la na mão
+    no-have-map: Você não possui nenhuma map art
+    map-no-found: Essa map art não existe
+    map-no-found-but: "Você não tem essa map art, mas tem estas: \n%s"
+    show-all-map: "Estas são todas as suas map arts: \n%s"
+    too-many-map: <i>Mapas em excesso</i>
+    missing-map: <i>Map art faltando</i>
+    no-your-map: Você só pode modificar suas próprias map arts
+    hover: Clique para ver a map art
+    delete: Você deletou o mapa corretamente
+    invalid-type: Esse tipo de mapa não é válido
+    help: |
+      <|Como posso enviar minha map art?|>
+      Você só precisa de um mapa na mão e executar <suggest:/mapart>/mapart</suggest>, então a map art será pública
+
+      <|O que fazer se minha map art for maior?|>
+      Basta executar <suggest:/mapart [id] size>/mapart [id] size x y</suggest> substitua <|[id]|> pelo ID do mapa, X pela altura e Y pela largura.
+      Depois disso, execute <suggest:/mapart [id] ids>/mapart [id] ids</suggest> substitua <|[id]|> pelo ID do mapa e adicione os IDs dos mapas, por exemplo: <|/mapart [id] ids 224 225 226 227|>
+
+      <i>Qualquer dúvida, pergunte no Discord</i>
+    feed-back: |
+      O mapa agora é público com estes dados
+      id: <|<click:copy_to_clipboard:%1$s><hover:show_text:Clique para Copiar>%s</hover></click>|>
+      Tamanho: <|%s|> <hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s size ><b><green>[Alterar]</green></b></click></hover>
+      %s
+      <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s ids >[Alterar]</click></hover></green></b>
+      Nome: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s name >[Alterar]</click></hover></green></b>
+      Descrição: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s description >[Alterar]</click></hover></green></b>
+      Autor(es): <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s author >[Alterar]</click></hover></green></b>
+      NSFW: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s nsfw >[Alterar]</click></hover></green></b>
+      Tipo de mapa: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s type >[Alterar]</click></hover></green></b>
+      <b><red><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s delete >[Deletar]</hover></red></b>
+    click-to-copy: Clique para copiar
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >

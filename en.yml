@@ -82,6 +82,7 @@ death-cause:
   freeze: <|%1$s|> couldn't handle team cold
   sonic-boom: <|%1$s|> was killed by the warden's scream
   end-crystal: <|%1$s|> was killed with a <lang:entity.minecraft.end_crystal> by <|%2$s|>
+  creaking: <|%1$s|> broke <|%1$s|>'s neck
 test:
   finished: The test has ended
   message: Hello world!! this is a <|Test|>
@@ -127,6 +128,7 @@ login:
     your-password: Your password
     title-login: Log in
     title-register: Register
+  kick-max-account: 'You have exceeded the maximum number of accounts. You have these accounts: %s'
 security:
   kick-anti-two-player: There is a player with your name
 event:
@@ -143,6 +145,7 @@ event:
     advancement-challenge: <|%s|> has completed the challenge %s
     advancement-goal: <|%s|> has completed the goal %s
     advancement-task: <|%s|> has completed the objective %s
+    spam: 'You have exceeded the message limit, please wait <|%.1fs|> to write back'
 ban:
   author-auto-ban: Server
 inventory:
@@ -283,6 +286,8 @@ command:
     not-found: These colors don't exist
   discord:
     message: 'Join our discord community: %s'
+    link:
+      message: To link, click <click:run_command:%s><green>[Here]</green></click> to link your Discord account
   vote:
     message: 'It would be appreciated if you voted here: %s'
   help:
@@ -310,6 +315,39 @@ command:
   avia-terra-remove:
     error: There was an error deleting player <|%s|>'s data, check the console
     successful: The data was successfully deleted
+  map-art:
+    missing-item: To upload a map art, you need to hold it in your hand
+    no-have-map: You don't have any map art
+    map-no-found: That map art doesn't exist
+    map-no-found-but: "You don't have that map art, but you have these: \n%s"
+    show-all-map: "These are all your map arts: \n%s"
+    too-many-map: <i>Too many maps</i>
+    missing-map: <i>Missing map art</i>
+    no-your-map: You can only modify your own map arts
+    hover: Click to view map art
+    delete: You successfully deleted the map
+    invalid-type: That map type is not valid
+    help: |
+      <|How can I upload my map art?|>
+      You just need a map in your hand and run <suggest:/mapart>/mapart</suggest>, then the map art will be public
+
+      <|What do I do if my map art is larger?|>
+      Just run <suggest:/mapart [id] size>/mapart [id] size x y</suggest> replace <|[id]|> with the map ID, X with height, and Y with width.
+      After that, run <suggest:/mapart [id] ids>/mapart [id] ids</suggest> replace <|[id]|> with the map ID and add the map IDs, for example: <|/mapart [id] ids 224 225 226 227|>
+
+      <i>If you have any questions, ask on Discord</i>
+    feed-back: |
+      The map is now public with these details
+      id: <|<click:copy_to_clipboard:%1$s><hover:show_text:Click To Copy>%s</hover></click>|>
+      Size: <|%s|> <hover:show_text:Click To change><click:suggest_command:/mapart %1$s size ><b><green>[Change]</green></b></click></hover>
+      %s
+      <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s ids >[Change]</click></hover></green></b>
+      Name: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s name >[Change]</click></hover></green></b>
+      Description: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s description >[Change]</click></hover></green></b>
+      Author(s): <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s author >[Change]</click></hover></green></b>
+      NSFW: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s nsfw >[Change]</click></hover></green></b>
+      Map type: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s type >[Change]</click></hover></green></b>
+      <b><red><hover:show_text:Click To change><click:suggest_command:/mapart %1$s delete >[Delete]</hover></red></b>
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -328,6 +366,7 @@ misc:
     footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING %ping%</gradient>\n<gradient:#581cce:#3f39ea>Uptime:</gradient><gradient:#fb8316:#fbb61f> %AviaTerraCore_active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
   on-combat: You can't do this action in combat
   hover-command: '<green>Click to suggest this command: %s</green>'
+  click-to-copy: Click to copy
 achievement:
   anarchy:
     root:
