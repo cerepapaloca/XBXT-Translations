@@ -35,7 +35,7 @@ death-cause:
     ravager: <|%2$s|> mató a <|%1$s|>
     piglin:
     - Un <|%2$s|> mató a <|%1$s|> por no llevar oro
-    - Un <|%2$s|> mató a <|%1$s|> pot que se le olvido el oro
+    - Un <|%2$s|> mató a <|%1$s|> por que se le olvido el oro
     - Un <|%2$s|> se enojo con <|%1$s|> por no llevar oro y lo termino matando
     zoglin: Un <|%2$s|> mató a <|%1$s|>
     piglin-brute:
@@ -154,11 +154,25 @@ event:
     advancement-goal: <|%s|> ha completado el meta %s
     advancement-task: <|%s|> ha completado el objetivo %s
     spam: 'Has superado el limite de mensaje espera <|%.1fs|> para escribir de vuelta '
+    bad-words: Tu mensaje tiene palabras no validas o inadecuadas
+  dead:
+    location: Moriste en en estas <|<click:copy_to_clipboard:%1$s><hover:show_text:Click
+      Para Copiar>%s</hover></click>|>
 ban:
   author-auto-ban: Servidor
 inventory:
   manipulator:
     title: Inventario de moderación
+  mine-sweeper:
+    title: Busca minas
+    manual-title: <yellow><b>¿Como Se juega?</b></yellow>
+    manual-lore: "<yellow><b>Click Izquierdo</b></yellow>\nExcavas un cuadrante\n\
+      <yellow><b>Click Derecho</b></yellow>\nPlantas una bandera o Quitas una bandera\n\
+      <yellow><b>Click Central</b></yellow>\nExcavas de alrededor de manera segura,\
+      \ también se puede hacer con click izquierdo + shift\n \nLos números representa\
+      \ la cantidad de minas que hay en su alrededor, si hay 2 significa que hay dos\
+      \ minas alrededor ni más ni menos cuando creés que hay una mina la indicas con\
+      \ una bandera. Para ganar tiene que marcar todas las minas con la bandera."
 data:
   mysql:
     exception: Hubo un error al modificar los datos
@@ -192,15 +206,20 @@ command:
     error: Hubo un error al cambiar la contraseña
     successful-log: El jugador <|%1$s|> se cambio la contraseña con su <|%2$s>
   check-ban:
+    # Este mensaje no se esta usando
     missing-argument-context: Falta el contexto
     not-found-ban: No esta baneado
+    # Este mensaje no se esta usando
     not-found-context: El contexto no existe
+    # Este mensaje no se esta usando
     not-found-ban-in-context: El jugador no esta banedo de ningún contexto
     not-found-but: 'El jugador esta baneado pero no del contexto seleccionado pero
       esta baneado de:'
+    # Este mensaje no se esta usando
     found-and-kick: El jugador <|%1$s|> fue echado del contexto <|%2$s|>
     found: <white>-|!> Esta baneado de <|%1$s|>, expira en <|%2$s|> y la razón es
       <|%3$s|>
+    # Este mensaje no se esta usando
     error: Hubo un problema al encontrar la información del jugador <|%1$s|>
   freeze:
     missing-args-last: Tienes que poner true o false
@@ -368,7 +387,9 @@ command:
       Luego de eso ejecuta <suggest:/mapart [id] ids>/mapart [id] ids</suggest> remplaza <|[id]|> por la id del mapa y añade la id del mapa, por ejemplo: <|/mapart [id] ids 224 225 226 227|>
 
       <i>Cualquier duda pregunta por discord</i>
-    feed-back: |
+    invalid-arg: Argumento invalido
+    publish-feedback: Tienes un cooldown de 6h. Tiempo restante <|%s|>
+    feedback: |
       El mapa ya es publico con estos datos
       id: <|<click:copy_to_clipboard:%1$s><hover:show_text:Click Para Copiar>%s</hover></click>|>
       Tamaño: <|%s|> <hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s size ><b><green>[Cambiar]</green></b></click></hover>
@@ -380,6 +401,10 @@ command:
       NSFW: <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s nsfw >[Cambiar]</click></hover></green></b>
       Tipo de mapa: <|%s|> <b><green><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s type >[Cambiar]</click></hover></green></b>
       <b><red><hover:show_text:Click Para cambiar><click:suggest_command:/mapart %1$s delete >[Borrar]</hover></red></b>
+  generic-format-int-error: EL formato de numero es invalido
+  back:
+    header: Lista de muertes reciente
+    message: <white>-</white> Moriste en <|%s|> hace <|%s|>
 misc:
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
@@ -400,9 +425,15 @@ misc:
     footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING\
       \ %ping%</gradient>\n<gradient:#581cce:#3f39ea>Tiempo Activo:</gradient><gradient:#fb8316:#fbb61f>\
       \ %active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
-  on-combat: No puedes hacer está acción en combate
+    mid: '%XBXT_display-name% <reset><%XBXT_ping-color%>%XBXT_ping%</%XBXT_ping-color%>
+      %XBXT_idle-player%'
   hover-command: '<green>Click para sugerir este comando: %s</green>'
   click-to-copy: Click para copiar
+  combat:
+    on-combat: No puedes hacer está acción en combate
+    entry-combat: <|¡Ahora esta en combate!|> no te desconectes ni uses el /tpa /home
+    finished-combat: Ya no estas en combate
+  server-no-ready: EL servidor no está listo. puede tardar hasta un minuto...
 achievement:
   anarchy:
     root:
