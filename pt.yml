@@ -1,354 +1,398 @@
 death-cause:
   entity:
-    elder-guardian: <|%2$s|> matou <|%1$s|>
-    wither-skeleton: <|%2$s|> matou <|%1$s|>
-    stray: <|%2$s|> matou <|%1$s|>
-    husk: <|%2$s|> matou <|%1$s|>
-    zombie-villager: <|%2$s|> matou <|%1$s|>
-    evoker: <|%2$s|> matou <|%1$s|>
-    vex: <|%2$s|> matou <|%1$s|>
-    vindicator: <|%2$s|> matou <|%1$s|>
-    illusioner: <|%2$s|> matou <|%1$s|>
+    elder-guardian: <|%2$s|> killed <|%1$s|>
+    wither-skeleton: <|%2$s|> killed <|%1$s|>
+    stray: <|%2$s|> killed <|%1$s|>
+    husk: <|%2$s|> killed <|%1$s|>
+    zombie-villager: <|%2$s|> killed <|%1$s|>
+    evoker: <|%2$s|> killed <|%1$s|>
+    vex: <|%2$s|> killed <|%1$s|>
+    vindicator: <|%2$s|> killed <|%1$s|>
+    illusioner: <|%2$s|> killed <|%1$s|>
     creeper:
-    - um <|%2$s|> se imolou matando <|%1$s|>
-    - um <|%2$s|> explodiu na cara de <|%1$s|>
+    - a <|%2$s|> self-destructed killing <|%1$s|>
+    - a <|%2$s|> exploded in <|%1$s|>'s face
     skeleton:
-    - Um <|%2$s|> enterrou uma flecha na testa de <|%1$s|>
-    - Um <|%2$s|> matou <|%1$s|> com sua pontaria
-    spider: <|%1$s|> foi comido por <|%2$s|>
-    giant: <|%2$s|> matou <|%1$s|>
-    zombie: Um <|%2$s|> mordeu até a morte <|%1$s|>
-    zombified-piglin: <|%2$s|> matou <|%1$s|>
-    enderman: <|%1$s|> esqueceu o quão forte é um <|%2$s|>
-    cave-spider: <|%1$s|> foi comido por <|%2$s|>
-    silverfish: Um <|%2$s|> insignificante conseguiu matar <|%1$s|>
-    blaze: Um <|%2$s|> reduziu <|%1$s|> a cinzas
-    wither: Um <|%2$s|> partiu <|%1$s|> ao meio
-    witch: Um <|%2$s|> matou <|%1$s|>
-    endermite: Um <|%2$s|> conseguiu matar <|%1$s|>. que noob
-    guardian: Um <|%2$s|> defendeu com sucesso contra <|%1$s|>
-    shulker: Um <|%2$s|> não deixou <|%1$s|> matá-lo
-    snow-golem: de alguma forma um <|%2$s|> conseguiu matar <|%1$s|>
-    iron-golem: Um <|%2$s|> se revoltou contra <|%1$s|>
-    drowned: <|%1$s|> foi levado às profundezas graças a um <|%2$s|>
-    pillager: Um <|%2$s|> apresentou seu machado a <|%1$s|>
-    ravager: <|%2$s|> matou <|%1$s|>
+    - A <|%2$s|> shot an arrow into <|%1$s|>'s forehead
+    - A <|%2$s|> killed <|%1$s|> with its aim
+    spider: <|%1$s|> was eaten by <|%2$s|>
+    giant: <|%2$s|> killed <|%1$s|>
+    zombie: A <|%2$s|> bit <|%1$s|> to death
+    zombified-piglin: <|%2$s|> killed <|%1$s|>
+    enderman: <|%1$s|> forgot how strong a <|%2$s|> is
+    cave-spider: <|%1$s|> was eaten by <|%2$s|>
+    silverfish: A tiny <|%2$s|> managed to kill <|%1$s|>
+    blaze: A <|%2$s|> turned <|%1$s|> to ashes
+    wither: A <|%2$s|> split <|%1$s|> in half
+    witch: A <|%2$s|> killed <|%1$s|>
+    endermite: A <|%2$s|> managed to kill <|%1$s|>. what a noob
+    guardian: A <|%2$s|> successfully defended against <|%1$s|>
+    shulker: A <|%2$s|> didn't let <|%1$s|> kill it
+    snow-golem: somehow a <|%2$s|> managed to kill <|%1$s|>
+    iron-golem: A <|%2$s|> rebelled against <|%1$s|>
+    drowned: <|%1$s|> was sent to the depths thanks to a <|%2$s|>
+    pillager: A <|%2$s|> made <|%1$s|> acquainted with its axe
+    ravager: <|%2$s|> killed <|%1$s|>
     piglin:
-    - Um <|%2$s|> matou <|%1$s|> por não carregar ouro
-    - Um <|%2$s|> matou <|%1$s|> por esquecer o ouro
-    - Um <|%2$s|> ficou bravo com <|%1$s|> por não carregar ouro e acabou matando
-    zoglin: Um <|%2$s|> matou <|%1$s|>
+    - A <|%2$s|> killed <|%1$s|> for not carrying gold
+    - A <|%2$s|> killed <|%1$s|> for forgetting the gold
+    - A <|%2$s|> got angry with <|%1$s|> for not carrying gold and ended up killing
+      them
+    zoglin: A <|%2$s|> killed <|%1$s|>
     piglin-brute:
-    - Um <|%2$s|> apresentou seu machado a <|%1$s|>
-    - Um <|%2$s|> partiu <|%1$s|> ao meio
+    - A <|%2$s|> made <|%1$s|> acquainted with its axe
+    - A <|%2$s|> split <|%1$s|> in half
     warden:
-    - O <|%2$s|> destruiu <|%1$s|> (que corajoso)
-    - Um <|%2$s|> partiu <|%1$s|> ao meio
-    breeze: Um <|%2$s|> queimou <|%1$s|>
+    - THE <|%2$s|> destroyed <|%1$s|> (how brave)
+    - A <|%2$s|> split <|%1$s|> in half
+    breeze: A <|%2$s|> burned <|%1$s|>
     bogged:
-    - Um <|%2$s|> implantou cogumelos em <|%1$s|>
-    - Um <|%2$s|> acertou uma flecha de cogumelos em <|%1$s|>
-    creaking: <|%1$s|> quebrou o pescoço de <|%1$s|>
-  kill: <|%1$s|> morreu sem motivo
-  world-border: <|%1$s|> morreu pela borda do mundo
-  contact: <|%1$s|> morreu por estar tocando algo que não devia
-  entity-attack: <|%2$s|> matou <|%1$s|> com seu <|%3$s|>
-  entity-sweep-attack: <|%2$s|> destruiu <|%1$s|> com seu %3$s
-  projectile: <|%1$s|> foi atingido por <|%2$s|> com seu <|%3$s|>
-  suffocation: <|%1$s|> sufocou
-  fall: <|%1$s|> espatifou-se no chão
-  fire: <|%1$s|> queimou até a morte
-  fire-tick: <|%1$s|> foi reduzido a cinzas
-  melting: um boneco de neve matou <|%1$s|>
-  lava: <|%1$s|> nadou em lava
-  drowning: <|%1$s|> se afogou
-  block-explosion: algo explodiu na cara de <|%1$s|>
-  entity-explosion: alguém explodiu na cara de <|%1$s|>
-  void: <|%1$s|> entrou no vazio
-  lightning: <|%1$s|> foi atingido por um raio
-  suicide: <|%1$s|> acabou com sua vida
-  starvation: <|%1$s|> morreu de fome
-  poison: <|%1$s|> morreu por uma poção de veneno
-  magic: <|%1$s|> morreu de uma maneira mágica kk
-  wither: <|%1$s|> morreu pelo efeito wither
-  falling-block: <|%1$s|> foi atingido por um bloco que caiu
-  thorns: <|%1$s|> morreu por karma
-  dragon-breath: <|%1$s|> morreu pelo dragão
-  custom: <|%1$s|> foi morto por algo
-  fly-into-wall: <|%1$s|> fez um 11/9
-  hot-floor: <|%1$s|> queimou os pés
-  campfire: <|%1$s|> sentou em uma fogueira
-  cramming: <|%1$s|> foi esmagado por outros seres
-  dryout: <|%1$s|> se afogou no ar
-  freeze: <|%1$s|> não aguentou o time frio
-  sonic-boom: <|%1$s|> foi morto pelo grito do warden
-  end-crystal: <|%1$s|> foi morto com um <lang:entity.minecraft.end_crystal> por <|%2$s|>
+    - A <|%2$s|> implanted mushrooms in <|%1$s|>
+    - A <|%2$s|> shot a mushroom arrow at <|%1$s|>
+  kill: <|%1$s|> died for no reason
+  world-border: <|%1$s|> died from the world border
+  contact: <|%1$s|> died from touching something they shouldn't have
+  entity-attack: <|%2$s|> killed <|%1$s|> with their <|%3$s|>
+  entity-sweep-attack: <|%2$s|> destroyed <|%1$s|> with their %3$s
+  projectile: <|%1$s|> was shot by <|%2$s|> with their <|%3$s|>
+  suffocation: <|%1$s|> suffocated
+  fall: <|%1$s|> crashed into the ground
+  fire: <|%1$s|> burned to death
+  fire-tick: <|%1$s|> was reduced to ashes
+  melting: a snowman killed <|%1$s|>
+  lava: <|%1$s|> swam in lava
+  drowning: <|%1$s|> drowned
+  block-explosion: something exploded in <|%1$s|>'s face
+  entity-explosion: someone exploded in <|%1$s|>'s face
+  void: <|%1$s|> entered the void
+  lightning: <|%1$s|> was struck by lightning
+  suicide: <|%1$s|> ended their life
+  starvation: <|%1$s|> starved to death
+  poison: <|%1$s|> died from a poison potion
+  magic: <|%1$s|> died in a magical way lol
+  wither: <|%1$s|> died from the wither effect
+  falling-block: <|%1$s|> was hit by a falling block
+  thorns: <|%1$s|> died from karma
+  dragon-breath: <|%1$s|> died from the dragon
+  custom: <|%1$s|> was killed by something
+  fly-into-wall: <|%1$s|> pulled a 9/11
+  hot-floor: <|%1$s|> burned their feet
+  campfire: <|%1$s|> sat on a campfire
+  cramming: <|%1$s|> was crammed with other beings
+  dryout: <|%1$s|> drowned in air
+  freeze: <|%1$s|> couldn't handle team cold
+  sonic-boom: <|%1$s|> was killed by the warden's scream
+  end-crystal: <|%1$s|> was killed with a <lang:entity.minecraft.end_crystal> by <|%2$s|>
+  # Este mensaje no se esta usando
+  creaking: <|%1$s|> broke <|%1$s|>'s neck
 test:
-  finished: O teste terminou
-  message: Olá mundo!! isto é um <|Teste|>
+  finished: The test has ended
+  message: Hello world!! this is a <|Test|>
 login:
-  kick-generic: Erro de conexão, tente novamente
-  kick-premium-validation: Foi detectada uma discrepância. Reinicie seu cliente
-  kick-password-error: Houve um erro ao salvar sua senha, por favor entre novamente
-  kick-address-error: Houve um erro ao salvar seus dados, por favor entre novamente
-  kick-register-error: Houve um problema com seu registro, registre-se novamente
-  kick-session-error: Houve um problema com sua sessão, faça login novamente
-  kick-key-error: Houve um problema com sua chave secreta, entre novamente no servidor. Se o problema persistir, reinicie seu launcher
-  kick-online-mode: O servidor entrou em modo online
-  kick-unknown-state: Entre novamente, houve um problema com sua conta
-  kick-entry-limbo-error: Erro ao entrar no modo limbo, por favor entre novamente
-  kick-no-register: Você não está registrado, entre novamente no servidor
+  kick-generic: Connection error, please try again
+  kick-premium-validation: A discrepancy was detected. Restart your client
+  kick-password-error: There was an error saving your password, please log in again
+  kick-address-error: There was an error saving your data, please log in again
+  kick-register-error: There was a problem with your registration, please register
+    again
+  kick-session-error: There was a problem with your session, please log in again
+  kick-key-error: There was a problem with your secret key, please rejoin the server.
+    If the problem persists, restart your launcher
+  kick-online-mode: The server went into online mode
+  kick-unknown-state: Please rejoin, there was a problem with your account
+  kick-entry-limbo-error: Error entering limbo mode, please rejoin
+  kick-no-register: You are not registered, please rejoin the server
   limbo-initiated-by-session-chat: |-
-    Para fazer login use o seguinte comando:
+    To log in, use the following command:
      <|<click:suggest_command:/login>/login</click>|>
-  limbo-initiated-by-session-title: Use Este Comando
-  limbo-initiated-by-session-subtitle: <|/login <Senha>|>
+  limbo-initiated-by-session-title: Use This Command
+  limbo-initiated-by-session-subtitle: <|/login <Password>|>
   limbo-initiated-by-register-chat: |-
-    Para se registrar use o seguinte comando:
+    To register, use the following command:
      <|<click:suggest_command:/register>/register</click>|>.
-  limbo-initiated-by-register-title: Use Este Comando
-  limbo-initiated-by-register-subtitle: <|/register <Senha> <Senha>|>
-  limbo-time-out-session: Você demorou muito para fazer login
-  limbo-time-out-register: Você demorou muito para se registrar
-  limbo-chat-write: Você precisa fazer login para escrever no chat
-  two-factor-link-title: Você precisa executar este comando para vincular sua conta
+  limbo-initiated-by-register-title: Use This Command
+  limbo-initiated-by-register-subtitle: <|/register <Password> <Password>|>
+  limbo-time-out-session: You took too long to log in
+  limbo-time-out-register: You took too long to register
+  limbo-chat-write: You need to log in to write in chat
+  two-factor-link-title: You must execute this command to link your account
   two-factor-link-subtitle: /link %s
-  two-factor-code-title: Aqui está seu código de uso único. Este código não deve ser compartilhado e é válido por 2 minutos
+  two-factor-code-title: Here is your one-time code. This code should not be shared
+    and is valid for 2 minutes
   two-factor-code-subtitle: '%s'
-  two-factor-subject-gmail: Código de verificação em dois passos de xB XT
-  two-factor-no-found-code: você não tem um código, use <|/link|> para obter um
-  two-factor-uuid-no-equal: houve uma discrepância, envie um novo código
-  two-factor-expire-code: O código expirou
-  two-factor-code-no-equal: Os códigos não são iguais
-  two-factor-arrived-message-discord: Verifique seu discord, a mensagem já deve ter chegado
-  limbo-bedrock-error: Houve um erro com a conexão do servidor, tente entrar novamente
+  two-factor-subject-gmail: Two-step verification code from xB XT
+  two-factor-no-found-code: you don't have a code, use <|/link|> to get one
+  two-factor-uuid-no-equal: there was a discrepancy, please send a new code
+  two-factor-expire-code: The code has expired
+  two-factor-code-no-equal: The codes don't match
+  two-factor-arrived-message-discord: Check your discord, the message should have
+    arrived
+  limbo-bedrock-error: There was an error with the server connection, please try again
   form:
-    new-password: Sua nova senha
-    password-again: Sua senha novamente
-    your-password: Sua senha
-    title-login: Iniciar sessão
-    title-register: Registrar-se
+    new-password: Your new password
+    password-again: Your password again
+    your-password: Your password
+    title-login: Log in
+    title-register: Register
+  kick-max-account: 'You have exceeded the maximum number of accounts. You have these
+    accounts: %s'
 security:
-  kick-anti-two-player: Há um jogador com seu nome
+  kick-anti-two-player: There is a player with your name
 event:
-  quit: '&8[&4-&8]|!> O jogador <|%s|> desconectou'
-  join: '&8[&a+&8]|!> O jogador<click:suggest_command:/w %1$s> <|%1$s|> entrou'
+  quit: '&8[&4-&8]|!> Player <|%s|> has disconnected'
+  join: '&8[&a+&8]|!> Player<click:suggest_command:/w %1$s> <|%1$s|> has joined'
   chat:
     format: '%1$s&r » %2$s'
     hover: |
-      Distância percorrida: <|%sKM|>
-      Tempo jogado: <|%sH|>
-      Nome Real: <|%s|>
-      Idioma: <|%s|>
+      Distance traveled: <|%sKM|>
+      Time played: <|%sH|>
+      Real Name: <|%s|>
+      Language: <|%s|>
       Rank: <|%s|>
-    advancement-challenge: <|%s|> completou o desafio %s
-    advancement-goal: <|%s|> completou a meta %s
-    advancement-task: <|%s|> completou o objetivo %s
-    spam: 'Você excedeu o limite de mensagens, aguarde <|%.1fs|> para responder'
+    advancement-challenge: <|%s|> has completed the challenge %s
+    advancement-goal: <|%s|> has completed the goal %s
+    advancement-task: <|%s|> has completed the objective %s
+    bad-words: Tu mensaje tiene palabras no validas o inadecuadas
+    spam: You have exceeded the message limit, please wait <|%.1fs|> to write back
 ban:
-  author-auto-ban: Servidor
+  author-auto-ban: Server
 inventory:
   manipulator:
-    title: Inventário de moderação
+    title: Moderation inventory
 data:
   mysql:
-    exception: Houve um erro ao modificar os dados
+    exception: There was an error modifying the data
 command:
-  generic-no-permission: Você não tem autorização para executar esse comando
-  generic-no-login: Primeiro faça login usando <|/login|>
+  generic-no-permission: You are not authorized to execute that command
+  generic-no-login: First log in using <|/login|>
   generic-run-log: <|%s|> -> %s
-  generic-exception-error: Ops!! Houve um erro ao executar o comando, contate o desenvolvedor
-  generic-args-error: 'Falta o argumento: %s'
-  generic-format-date-error: O formato da data está incorreto
-  generic-no-player: Este comando só pode ser executado por um jogador
-  generic-player-not-found: O jogador não existe ou está desconectado
-  generic-players-not-found: O(s) jogador(es) <|%s|> não está(ão) conectado(s) ou não existe(m)
+  generic-exception-error: Oops!! There was an error executing the command, contact
+    the developer
+  generic-args-error: 'Missing argument: %s'
+  generic-format-date-error: The date format is incorrect
+  generic-no-player: This command can only be executed by a player
+  generic-player-not-found: The player doesn't exist or is offline
+  generic-players-not-found: The player/s <|%s|> is not connected or doesn't exist
+  generic-format-int-error: The number format is invalid.
   add-range:
-    not-found-range: O rank não existe
-    successful: O item foi dado com sucesso
-    name: Rank %1$s por %2$s
-    missing-argument-time: Você precisa especificar o tempo de duração
+    not-found-range: The rank doesn't exist
+    successful: The item was given successfully
+    name: Rank %1$s by %2$s
+    missing-argument-time: You need to specify the duration time
   ban:
-    missing-argument-time: Você precisa colocar um tempo de banimento
-    missing-argument-reason: Você precisa dar um motivo para o banimento
-    not-found-context: O contexto não existe
-    data-base-error: Houve um problema com o banco de dados, execute o comando novamente
-    successful: O jogador será banido, verifique os logs para confirmar
+    missing-argument-time: You need to specify a ban duration
+    missing-argument-reason: You need to provide a ban reason
+    not-found-context: The context doesn't exist
+    data-base-error: There was a problem with the database, please execute the command
+      again
+    successful: The player will be banned, check the logs to confirm
   change-password:
-    not-equal-password: Senha incorreta. Se não lembra sua senha e tem um email ou discord vinculado, pode enviar um código de verificação usando <|/link <discord | gmail>|>
-    successful: A senha foi alterada com sucesso
-    error: Houve um erro ao alterar a senha
-    successful-log: O jogador <|%1$s|> alterou sua senha com seu <|%2$s|>
+    not-equal-password: Incorrect password. If you don't remember your password and
+      have a linked email or discord, you can send a verification code using <|/link
+      <discord | gmail>|>
+    successful: The password was changed successfully
+    error: There was an error changing the password
+    successful-log: Player <|%1$s|> changed their password with their <|%2$s>
   check-ban:
-    missing-argument-context: Falta o contexto
-    not-found-ban: Não está banido
-    not-found-context: O contexto não existe
-    not-found-ban-in-context: O jogador não está banido de nenhum contexto
-    not-found-but: 'O jogador está banido mas não do contexto selecionado, porém está banido de:'
-    found-and-kick: O jogador <|%1$s|> foi expulso do contexto <|%2$s|>
-    found: <white>-|!> Está banido de <|%1$s|>, expira em <|%2$s|> e o motivo é <|%3$s|>
-    error: Houve um problema ao encontrar as informações do jogador <|%1$s|>
+    # Este mensaje no se esta usando
+    missing-argument-context: Missing context
+    not-found-ban: Not banned
+    # Este mensaje no se esta usando
+    not-found-context: The context doesn't exist
+    # Este mensaje no se esta usando
+    not-found-ban-in-context: The player is not banned from any context
+    not-found-but: 'The player is banned but not from the selected context, but is
+      banned from:'
+    # Este mensaje no se esta usando
+    found-and-kick: Player <|%1$s|> was kicked from context <|%2$s|>
+    found: <white>-|!> Banned from <|%1$s|>, expires in <|%2$s|> and the reason is
+      <|%3$s|>
+    # Este mensaje no se esta usando
+    error: There was a problem finding information for player <|%1$s|>
   freeze:
-    missing-args-last: Você precisa colocar true ou false
-    already-freeze: O jogador já estava congelado
-    already-unfreeze: O jogador já estava descongelado
-    unfreeze-author: O jogador foi descongelado
-    unfreeze-target: Você foi descongelado
-    freeze-author: O jogador foi congelado
-    freeze-target: Você foi congelado, por favor fale com a staff
+    missing-args-last: You need to put true or false
+    already-freeze: The player was already frozen
+    already-unfreeze: The player was already unfrozen
+    unfreeze-author: The player was unfrozen
+    unfreeze-target: You were unfrozen
+    freeze-author: The player was frozen
+    freeze-target: You were frozen, please speak with staff
   link:
-    send-gmail-1: Um email foi enviado para %s com o código
-    send-discord-1: Uma mensagem direta com o código está sendo enviada
-    already-gmail: Você já tem um email vinculado, apenas use o comando para vincular um novo email
-    already-discord: Você já tem uma conta do discord vinculada, apenas use o comando para vincular uma nova conta do discord
-    arrived-message-gmail: Verifique sua caixa de entrada, a mensagem já deve ter chegado
-    successful: Autenticação concluída
-    error: Houve um erro com a autenticação, tente novamente
-    missing-args-gmail: Você precisa colocar seu gmail ou o código de validação
-    gmail-no-login: Para vincular seu gmail você precisa estar logado
-    send-gmail-2: Um email com o código está sendo enviado
-    not-found-gmail: Você não tem um Gmail vinculado
-    missing-args-discord: Você precisa colocar seu ID do Discord ou o código de validação
-    discord-no-login: Para vincular seu Discord você precisa estar logado
-    send-discord-2: Uma mensagem direta com o código está sendo enviada
-    not-fount-discord: Você não tem um Discord vinculado
-    missing-args: Você precisa colocar discord, gmail ou um código
+    send-gmail-1: An email was sent to %s with the code
+    send-discord-1: A direct message with the code is being sent
+    already-gmail: You already have a linked email, just use the command to link a
+      new email
+    already-discord: You already have a linked discord account, just use the command
+      to link a new discord account
+    arrived-message-gmail: Check your inbox, the message should have arrived
+    successful: Authentication completed
+    error: There was an error with authentication, please try again
+    missing-args-gmail: You need to put your gmail or the verification code
+    gmail-no-login: To link your gmail you need to be logged in
+    send-gmail-2: An email with the code is being sent
+    not-found-gmail: You don't have a linked Gmail
+    missing-args-discord: You need to put your Discord ID or the verification code
+    discord-no-login: To link your Discord you need to be logged in
+    send-discord-2: A direct message with the code is being sent
+    not-fount-discord: You don't have a linked Discord
+    missing-args: You need to put discord, gmail or a code
   login:
-    already: Você já está logado
-    no-register: Você não está registrado, use <|/register|>
-    missing-args: Você precisa colocar sua senha
-    successful-chat: Você fez login com sucesso
-    successful-title: Bem-vindo de volta
+    already: You are already logged in
+    no-register: You are not registered, use <|/register|>
+    missing-args: You need to put your password
+    successful-chat: You have successfully logged in
+    successful-title: Welcome back
     successful-subtitle: <|&o%s|>
-    no-equal-password: senha incorreta ou código incorreto, tente novamente. Se não lembra sua senha e tem um email ou discord vinculado, pode enviar um código de verificação usando <|/link <discord | gmail>|>
-    banned: Por sua segurança, esta conta está suspensa temporariamente por muitas tentativas falhas
+    no-equal-password: incorrect password or code, please try again. If you don't
+      remember your password and have a linked email or discord, you can send a verification
+      code using <|/link <discord | gmail>|>
+    banned: For your security, this account is temporarily suspended for too many
+      failed attempts
   register:
-    successful-chat: Você se registrou com sucesso
-    successful-title: Bem-vindo a %s
+    successful-chat: You registered successfully
+    successful-title: Welcome to %s
     successful-subtitle: <|&o%s|>
-    no-equal-password: As senhas não são iguais
-    missing-args-password: Você precisa escrever a senha duas vezes assim /register <senha> <senha>
-    password-equal-name: Sua senha não pode ser igual ao nome de usuário
-    password-too-short: A senha é muito curta, precisa ter mais que %s letras
-    is-premium: Premium não se registram
-    already: Você já está registrado
+    no-equal-password: Passwords don't match
+    missing-args-password: You need to write the password twice like /register <password>
+      <password>
+    password-equal-name: Your password can't be the same as your username
+    password-too-short: The password is too short, it needs to be longer than %s characters
+    is-premium: Premium accounts don't register
+    already: You are already registered
   see-inventory:
-    error: Você não pode ver o inventário de outro jogador que também esteja vendo um inventário
-    missing-args: você precisa do nome do jogador
+    error: You can't see another player's inventory who is also viewing an inventory
+    missing-args: you need the player's name
   unban:
-    not-found-context: contexto inválido
-    successful: O jogador será desbanido, verifique os logs para confirmar
+    not-found-context: invalid context
+    successful: The player will be unbanned, check the logs to confirm
   weapon:
-    missing-args-name: Falta o nome do armamento
-    missing-args-type: O tipo de armamento não existe
-    successful: O armamento foi dado com sucesso
-    not-found-type: O tipo de armamento não existe
+    missing-args-name: Missing weapon name
+    missing-args-type: The weapon type doesn't exist
+    successful: The weapon was given successfully
+    not-found-type: The weapon type doesn't exist
   tpa:
-    send: Solicitação enviada para %s
-    was-disconnected: O jogador que te convidou desconectou
-    no-found: Você não tem solicitações de tpa
-    receive: Você tem uma solicitação de <|%s|> Tpa, Clique para <hover:show_text:Clique para aceitar><click:run_command:/tpa y><green>[Aceitar]</green></click></hover> ou <hover:show_text:Clique para recusar><click:run_command:/tpa n><green><red>[Recusar]</red></click></hover>
-    self: Você não pode enviar uma solicitação para si mesmo
-    expire: A solicitação de tpa expirou
-    cancel-receive: Sua solicitação de tpa foi cancelada
-    cancel-self: Você cancelou a solicitação de tpa
+    send: Request sent to %s
+    was-disconnected: The player who invited you disconnected
+    no-found: You don't have any tpa requests
+    receive: You have a tpa request from <|%s|>, Click to <hover:show_text:Click to
+      accept><click:run_command:/tpa y><green>[Accept]</green></click></hover> or
+      <hover:show_text:Click to deny><click:run_command:/tpa n><green><red>[Deny]</red></click></hover>
+    self: You can't send a request to yourself
+    expire: The tpa request has expired
+    cancel-receive: Your tpa request was canceled
+    cancel-self: You canceled the tpa request
+  back:
+    header: List of recent deaths
+    message: <white>-</white> You died in <|%s|> years ago
   home:
-    add-successful: O home foi criado
-    remove-successful: O home foi removido
-    not-found-remove: O home não existe
-    not-found: O home não existe, você pode criar um usando <|<click:run_command:/home %1$s add>/home %1$s add</click>|>
-    contains-point: O home não pode ter pontos
-    max-home: Apenas um máximo de %s homes são permitidos
-    close-spawn: Muito perto do spawn, faltam <|%s|> metros para fazer <|<click:run_command:/home>/home</click>|>
-    too-length: O nome do home é muito longo
+    add-successful: The home was created
+    remove-successful: The home was deleted
+    not-found-remove: The home doesn't exist
+    not-found: The home doesn't exist, you can create one using <|<click:run_command:/home
+      %1$s add>/home %1$s add</click>|>
+    contains-point: The home can't have points
+    max-home: Only a maximum of %s homes are allowed
+    close-spawn: Too close to spawn, you need <|%s|> more meters to make <|<click:run_command:/home>/home</click>|>
+    too-length: The home name is too long
   say:
-    missing-args: Falta a mensagem
+    missing-args: You're missing the message
   tell:
-    feedback: '&ovocê sussurrou para %s -> %s'
+    feedback: '&oyou whispered to %s -> %s'
     format-message: '&o %1$s -> %2$s'
-    missing-target: Você precisa colocar o nome do jogador
-    missing-message: Falta a mensagem
-    no-login: Não é possível enviar a mensagem para <|%s|>, porque não está logado
+    missing-target: You need to put the player's name
+    missing-message: You're missing the message
+    no-login: Can't send the message to <|%s|>, because they're not logged in
   premium:
-    is-premium: Esta conta já é premium
-    is-cracked: O nome de usuário não pertence à Mojang
-    successful: Sua conta foi alterada. Agora é premium, entre novamente
-    error: Houve um erro ao alterar o status da sua conta, tente novamente
-    confirm: <red><b>Aviso</b></red> Só execute quando tiver uma conta oficial da Microsoft, Nesse caso execute este comando <|<Click:suggest_command:/confirm>/confirm</click>|> ou <|<Click:suggest_command:/premium>/premium</click>|> para mudar para o modo premium
+    is-premium: This account is already premium
+    is-cracked: The username doesn't belong to mojang
+    successful: Your account status has been changed. It's now premium, please rejoin
+    error: There was an error changing your account status, please try again
+    confirm: <red><b>Warning</b></red> Only execute when you have an official microsoft
+      account, If that's the case execute this command <|<Click:suggest_command:/confirm>/confirm</click>|>
+      or <|<Click:suggest_command:/premium>/premium</click>|> to switch to premium
+      mode
   confirm:
-    not-found: Você não tem comandos para confirmar
+    not-found: You don't have any commands to confirm
   passive:
-    restart-cancel: O reset foi cancelado
-    restart-init: O reset passivo foi iniciado, use <|<click:suggest_command:/passiverestart cancel>/passiverestart cancel</click>|> para cancelar
-    restart-start: O reinício começou
+    restart-cancel: The reset was canceled
+    restart-init: Passive reset started, use <|<click:suggest_command:/passiverestart
+      cancel>/passiverestart cancel</click>|> to cancel
+    restart-start: The restart has begun
   name-color:
-    not-found: Estas cores não existem
+    not-found: These colors don't exist
   discord:
-    message: 'Junte-se à nossa comunidade do discord: %s'
+    message: 'Join our discord community: %s'
     link:
-      message: Para vincular, clique em <click:run_command:%s><green>[Aqui]</green></click> para vincular sua conta do Discord
+      message: To link, click <click:run_command:%s><green>[Here]</green></click>
+        to link your Discord account
   vote:
-    message: 'Seria um agradecimento se você votasse aqui: %s'
+    message: 'It would be appreciated if you voted here: %s'
   help:
-    message: Clique em <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green> para ver a lista de comandos disponíveis no servidor
-  generic-not-found: O comando não existe, clique em <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green> para ver os comandos
+    message: Click on <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green>
+      to see the list of commands available on the server
+  generic-not-found: The command doesn't exist, click on <green><click:open_url:https://xbxt.xyz/commands>[https://xbxt.xyz/commands]</click></green>
+    to see the commands
   cracked:
-    error: Houve um erro ao mudar para o modo cracked, tente novamente
-    is-cracked: Você já está no modo cracked
-    successful: Sua conta foi alterada. Agora é cracked, entre novamente
-    confirm: <red><b>Aviso</b></red> Caso sua conta tenha uma senha, você precisará entrar com essa senha, Caso contrário, será solicitado que você se registre. Se quiser prosseguir execute <|este mesmo comando|> ou <|<Click:suggest_command:/premium>/premium</click>|>
+    error: There was an error switching to cracked mode, please try again
+    is-cracked: You're already in cracked mode
+    successful: Your account status has been changed. It's now cracked, please rejoin
+    confirm: <red><b>Warning</b></red> In case your account has a password, you'll
+      need to log in with that password, otherwise it will ask you to register. If
+      you want to proceed execute <|this same command|> or <|<Click:suggest_command:/premium>/premium</click>|>
   home-list:
-    successful: <white>%s.</white> <|%s|> localizado em <|%s|> a <|%sm|>
-    hover: <white>clique para ir para %s</white>
+    successful: <white>%s.</white> <|%s|> located at <|%s|> at <|%sm|>
+    hover: <white>click to go to %s</white>
   rocked:
-    title: Lançamento em...
+    title: Launching in...
   block:
-    successful: O(s) jogador(es) %s foi(ram) bloqueado(s) com sucesso
-    missing-arg: Você precisa colocar pelo menos um jogador
+    successful: Player/s %s were successfully blocked
+    missing-arg: You need to put at least one player
   unblock:
-    successful: O jogador %s foi desbloqueado com sucesso
-    missing-arg: Você precisa colocar pelo menos um jogador
-    not-found: Não foi possível encontrar %s na sua lista de bloqueio
+    successful: Player %s was successfully unblocked
+    missing-arg: You need to put at least one player
+    not-found: Couldn't find %s in your block list
   logout:
-    confirm: Tem certeza que deseja sair? Se sim, execute <|<Click:suggest_command:/confirm>/confirm</click>|> ou execute este comando novamente
+    confirm: Are you sure you want to log out? If so, execute <|<Click:suggest_command:/confirm>/confirm</click>|>
+      or run this command again
   avia-terra-remove:
-    error: Houve um erro ao deletar os dados do jogador <|%s|>, verifique o console
-    successful: Os dados foram deletados com sucesso
+    error: There was an error deleting player <|%s|>'s data, check the console
+    successful: The data was successfully deleted
   map-art:
-    missing-item: Para enviar uma map art, você precisa tê-la na mão
-    no-have-map: Você não possui nenhuma map art
-    map-no-found: Essa map art não existe
-    map-no-found-but: "Você não tem essa map art, mas tem estas: \n%s"
-    show-all-map: "Estas são todas as suas map arts: \n%s"
-    too-many-map: <i>Mapas em excesso</i>
-    missing-map: <i>Map art faltando</i>
-    no-your-map: Você só pode modificar suas próprias map arts
-    hover: Clique para ver a map art
-    delete: Você deletou o mapa corretamente
-    invalid-type: Esse tipo de mapa não é válido
+    missing-item: To upload a map art, you need to hold it in your hand
+    no-have-map: You don't have any map art
+    map-no-found: That map art doesn't exist
+    map-no-found-but: "You don't have that map art, but you have these: \n%s"
+    show-all-map: "These are all your map arts: \n%s"
+    too-many-map: <i>Too many maps</i>
+    missing-map: <i>Missing map art</i>
+    no-your-map: You can only modify your own map arts
+    hover: Click to view map art
+    delete: You successfully deleted the map
+    invalid-type: That map type is not valid
     help: |
-      <|Como posso enviar minha map art?|>
-      Você só precisa de um mapa na mão e executar <suggest:/mapart>/mapart</suggest>, então a map art será pública
+      <|How can I upload my map art?|>
+      You just need a map in your hand and run <suggest:/mapart>/mapart</suggest>, then the map art will be public
 
-      <|O que fazer se minha map art for maior?|>
-      Basta executar <suggest:/mapart [id] size>/mapart [id] size x y</suggest> substitua <|[id]|> pelo ID do mapa, X pela altura e Y pela largura.
-      Depois disso, execute <suggest:/mapart [id] ids>/mapart [id] ids</suggest> substitua <|[id]|> pelo ID do mapa e adicione os IDs dos mapas, por exemplo: <|/mapart [id] ids 224 225 226 227|>
+      <|What do I do if my map art is larger?|>
+      Just run <suggest:/mapart [id] size>/mapart [id] size x y</suggest> replace <|[id]|> with the map ID, X with height, and Y with width.
+      After that, run <suggest:/mapart [id] ids>/mapart [id] ids</suggest> replace <|[id]|> with the map ID and add the map IDs, for example: <|/mapart [id] ids 224 225 226 227|>
 
-      <i>Qualquer dúvida, pergunte no Discord</i>
-    feed-back: |
-      O mapa agora é público com estes dados
-      id: <|<click:copy_to_clipboard:%1$s><hover:show_text:Clique para Copiar>%s</hover></click>|>
-      Tamanho: <|%s|> <hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s size ><b><green>[Alterar]</green></b></click></hover>
+      <i>If you have any questions, ask on Discord</i>
+    invalid-arg: Invalid argument
+    feedback: |
+      The map is now public with these details
+      id: <|<click:copy_to_clipboard:%1$s><hover:show_text:Click To Copy>%s</hover></click>|>
+      Size: <|%s|> <hover:show_text:Click To change><click:suggest_command:/mapart %1$s size ><b><green>[Change]</green></b></click></hover>
       %s
-      <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s ids >[Alterar]</click></hover></green></b>
-      Nome: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s name >[Alterar]</click></hover></green></b>
-      Descrição: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s description >[Alterar]</click></hover></green></b>
-      Autor(es): <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s author >[Alterar]</click></hover></green></b>
-      NSFW: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s nsfw >[Alterar]</click></hover></green></b>
-      Tipo de mapa: <|%s|> <b><green><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s type >[Alterar]</click></hover></green></b>
-      <b><red><hover:show_text:Clique para alterar><click:suggest_command:/mapart %1$s delete >[Deletar]</hover></red></b>
-    click-to-copy: Clique para copiar
+      <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s ids >[Change]</click></hover></green></b>
+      Name: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s name >[Change]</click></hover></green></b>
+      Description: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s description >[Change]</click></hover></green></b>
+      Author(s): <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s author >[Change]</click></hover></green></b>
+      NSFW: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s nsfw >[Change]</click></hover></green></b>
+      Map type: <|%s|> <b><green><hover:show_text:Click To change><click:suggest_command:/mapart %1$s type >[Change]</click></hover></green></b>
+      <b><red><hover:show_text:Click To change><click:suggest_command:/mapart %1$s delete >[Delete]</hover></red></b>
 misc:
+  server-no-ready: The server is not ready. This may take up to a minute.
   kick-upper: |-
     <dark_gray>< <b><st>           </st> <#4B2FDE>XT <#ff8C00>XB <dark_gray><st>           </st></b> >
 
@@ -357,65 +401,75 @@ misc:
 
 
     <dark_gray>< <st>                  </st> | <st>                  </st> >
-  waring-anti-dupe: ⚠ Este Item está protegido, se tentar duplicar seu inventário INTEIRO será automaticamente deletado ⚠
-  nether-roof: Teto do nether desabilitado
-  active: Ativo
-  desactive: Desativado
+  waring-anti-dupe: ⚠ This Item is protected, if you try to dupe it your ENTIRE inventory
+    will be automatically deleted ⚠
+  nether-roof: Nether roof disabled
+  active: Active
+  desactive: Inactive
+  combat:
+    on-combat: You cannot perform this action while in combat.
+    entry-combat: <|You are now in combat!|> Do not disconnect or use /tpa /home.
+    finished-combat: You are no longer in combat.
   tab:
-    header: "<gradient:#581cce:#3f39ea>&lX Bᴜɪʟᴅᴇʀ</gradient> <gradient:#fb8316:#fbb61f>&lX Tᴏᴏʟꜱ</gradient>\n "
-    footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING %ping%</gradient>\n<gradient:#581cce:#3f39ea>Tempo Ativo:</gradient><gradient:#fb8316:#fbb61f> %AviaTerraCore_active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
-  on-combat: Você não pode fazer esta ação em combate
-  hover-command: '<green>Clique para sugerir este comando: %s</green>'
+    header: "<gradient:#581cce:#3f39ea>&lX Bᴜɪʟᴅᴇʀ</gradient> <gradient:#fb8316:#fbb61f>&lX\
+      \ Tᴏᴏʟꜱ</gradient>\n "
+    footer: " \n<gradient:#581cce:#3f39ea>TPS %tps%</gradient> &8| <gradient:#fb8316:#fbb61f>PING\
+      \ %ping%</gradient>\n<gradient:#581cce:#3f39ea>Uptime:</gradient><gradient:#fb8316:#fbb61f>\
+      \ %active-time%</gradient> \n \n<gradient:#581cce:#fb8316>ᴅɪꜱᴄᴏʀᴅ.ɢɢ/7ubQQFVMWF</gradient>"
+  hover-command: '<green>Click to suggest this command: %s</green>'
+  click-to-copy: Click to copy
 achievement:
   anarchy:
     root:
-      title: Anárquico
-      description: O começo de uma aventura selvagem
+      title: Anarchist
+      description: The beginning of a wild adventure
     allshulkerbox:
-      title: Variedade de sabores
-      description: Obtenha todas as shulkerBox
+      title: Variety of flavors
+      description: Obtain all shulkerBoxes
     deathbywhither:
-      title: Mensagem subliminar
-      description: Morra para um wither renomeado
+      title: Subliminal message
+      description: Die by a renamed wither
     renamewither:
-      title: Controle de mídia
-      description: renomeie um wither
+      title: Media control
+      description: rename a wither
     fullshulkerbox:
-      title: Denso como chumbo
-      description: encha uma shulker com itens iguais
+      title: Dense as lead
+      description: fill a shulker with identical items
     fullchestfullshulkerbox:
-      title: Carga XXXXXXXL
-      description: Encha um baú duplo e seu inventário com shulkers cheias de itens iguais
+      title: XXXXXXXL load
+      description: Fill a double chest and your inventory with shulkers full of identical
+        items
     getenderchest:
-      title: Inventário Portátil
-      description: Obtenha um baú do ender
+      title: Portable Inventory
+      description: Get an ender chest
     escapesusedchorusfruit:
-      title: No meu próximo truque...
-      description: Use uma fruta do coro para escapar estando completamente preso
+      title: In my next trick...
+      description: Use a chorus fruit to escape while completely trapped
     killplayer:
-      title: Sobrevivência do mais forte
-      description: Mate um jogador
+      title: Survival of the fittest
+      description: Kill a player
     getshulkerbox:
-      title: Espaço subatômico
-      description: Obtenha uma shulker
+      title: Subatomic space
+      description: Get a shulker
     findhighway:
       title: Kolymá
-      description: chegue a uma highway
+      description: reach a highway
     travelshighway4:
-      title: um décimo do polo ao equador
-      description: Viaje 1.000.000m pela highway
+      title: a tenth from the pole to the equator
+      description: Travel 1,000,000m on the highway
     travelshighway3:
-      title: Daqui ao espaço
-      description: Viaje 100.000m pela highway
+      title: From here to space
+      description: Travel 100,000m on the highway
     getendcrystal:
-      title: Nitroglicerina
-      description: Obtenha um Cristal do End
+      title: Nitroglycerin
+      description: Get an End Crystal
     travelshighway2:
-      title: Periferia do spawn
-      description: Viaje 5.000m pela highway
+      title: Spawn periphery
+      description: Travel 5,000m on the highway
     travelshighway1:
-      title: Bom passeio
-      description: Viaje 500m pela highway
+      title: Nice walk
+      description: Travel 500m on the highway
     breakenderchest:
-      title: Fractalização
-      description: Quebre 5 baús do ender sem toque de seda
+      title: Fractalization
+      description: Break 5 ender chests without silk touch
+
